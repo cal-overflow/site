@@ -92,7 +92,7 @@ To fix the issue, I created a lock system so that only one file could read/write
 
 The rest of my time developing the software was spent writing detailed documentation and automating much of the install process. The build script I created allows users to choose the platform software (client or server) they’re installing. The user is then prompted with numerous system options, such as the maximum number of clients that can connect at once. The script validates that Python is up-to-date and then attempts to install the necessary libraries.
 
-I had a great time working on the system itself. Still, I feel the most rewarded by what I learned while writing [thorough documentation](https://github.com/ChristianLisle/Security-System#security-system). Creating a bash script to automate some of the heavy lifting was a fun learning experience. Feel free to take a complete look at the project on the [repository](https://github.com/ChristianLisle/Security-System).
+I had a great time working on the system itself. Still, I feel the most rewarded by what I learned while writing [thorough documentation](https://github.com/cal-overflow/Security-System#security-system). Creating a bash script to automate some of the heavy lifting was a fun learning experience. Feel free to take a complete look at the project on the [repository](https://github.com/cal-overflow/Security-System).
 
 ---
 

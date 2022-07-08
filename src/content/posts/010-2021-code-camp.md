@@ -49,4 +49,4 @@ I spent most of my time on the frontend, utilizing Bootstrap to create a respons
 
 This video was our team’s original submission, which won us the “Best Software Hack” at the event.
 
-View the GitHub repository for Graphicc [here](https://github.com/ChristianLisle/graphicc).
+View the GitHub repository for Graphicc [here](https://github.com/cal-overflow/graphicc).

@@ -29,7 +29,7 @@ describe('Footer bar', () => {
   
   it('links to Github profile correctly', () => {
     if (Cypress.env('NUXT_ENV_GITHUB_PROFILE_URL')) {
-      cy.get('#footer-bar > div > #github-link').should('have.attr', 'href', 'https://github.com/ChristianLisle');
+      cy.get('#footer-bar > div > #github-link').should('have.attr', 'href', 'https://github.com/cal-overflow');
     }
     else cy.log('No GitHub profile URL environment variable detected. Skipping Test');
   });
