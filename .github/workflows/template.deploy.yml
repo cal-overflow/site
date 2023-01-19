@@ -1,0 +1,80 @@
+name: Deploy portfolio
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  STACK_NAME: portfolio-template
+  REGION: us-east-1
+  NUXT_ENV_SITE_URL: https://portfolio.cal-overflow.dev
+  NUXT_ENV_SITE_NAME: Example portfolio
+  NUXT_ENV_FULL_NAME: Example Developer
+  NUXT_ENV_EMAIL_ADDRESS: cal-overflow@users.noreply.github.com
+  STACK_TEMPLATE_FILE: template/stack.yml
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install dependencies 👨🏻‍💻
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Run unit tests 🧪
+        run: npm run unit
+
+  deploy:
+    needs: acceptance
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1-node16
+        with:
+          role-to-assume: ${{ secrets.IAM_ROLE_ARN }}
+          aws-region: ${{ env.REGION }}
+
+      - name: Deploy stack
+        run: ./template/deploy.sh
+        shell: bash
+
+  run_e2e_tests:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install dependencies 👨🏻‍💻
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Run e2e tests 🤖
+        run: |
+          export CYPRESS_RECORD_KEY=${{ secrets.CYPRESS_RECORD_KEY }}
+          CYPRESS_baseUrl=$NUXT_ENV_SITE_URL npm run e2e:headless:record
