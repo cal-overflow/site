@@ -1,0 +1,20 @@
+navbar:
+  signatureNavItem: 
+    title: 'cal'
+    href: '/'
+  navItems: 
+    - title: 'Blog'
+      href: '/blog'
+    - title: 'Portfolio'
+      href: '/portfolio'
+footer:
+  navItems: 
+    - title: 'Blog'
+      href: '/blog'
+    - title: 'Portfolio'
+      href: '/portfolio'
+    - title: 'Contact'
+      href: '/contact'
+  imageNavItems:
+    youtubeUrl: 'https://www.youtube.com/@cal-overflow'
+    githubUrl: 'https://github.com/cal-overflow'

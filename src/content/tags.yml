@@ -1,0 +1,45 @@
+# TODO - this file is for reference after https://github.com/cal-overflow/portfolio/issues/168 is completed
+tags:
+  - title: Portfolio
+    slug: portfolio
+    description: My most significant work and experiences. This varies from failed projects to fully functional apps, websites, games, and more.
+
+  - title: Backend
+    slug: backend
+    description: Projects where I primarily designed and developed the backend.
+
+  - title: Frontend
+    slug: frontend
+    description: Projects where I primarily designed and developed the frontend.
+
+  - title: Hackathon
+    slug: hackathon
+    description: My projects and experiences at hackathon events.
+
+  - title: Tutorials
+    slug: tutorials
+    description: Thorough guides that I have created to help others.
+
+  - title: University Course
+    slug: university-course
+    description: My experiences taking Computer Science courses at Iowa State University.
+
+  - title: Website Development
+    slug: website-development
+    description: The many websites that I have developed, designed, and/or worked on.
+
+  - title: Pac-Man
+    slug: pac-man
+    description: I seem to have a strange addiction to recreating Pac-Man.
+
+  - title: Abandoned Projects
+    slug: abandoned-projects
+    description: Projects I didn't quite complete. Either willingly, or because a major corporation asked me to stop 😅
+
+  - title: AWS
+    slug: aws
+    description: Cloud is the future and AWS is by far my favorite cloud provider.
+  
+  - title: Schizo Sunday
+    slug: schizo-sunday
+    description: Mr. 🤖
