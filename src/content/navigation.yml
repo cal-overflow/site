@@ -3,17 +3,15 @@ navbar:
     title: 'cal'
     href: '/'
   navItems: 
-    - title: 'Blog'
-      href: '/blog'
     - title: 'Portfolio'
       href: '/portfolio'
+    - title: 'Cloud'
+      href: '/cloud'
+    - title: 'Blog'
+      href: '/blog'
 footer:
   navItems: 
-    - title: 'Blog'
-      href: '/blog'
-    - title: 'Portfolio'
-      href: '/portfolio'
-    - title: 'Contact'
+    - title: 'Contact Me'
       href: '/contact'
   imageNavItems:
     youtubeUrl: 'https://www.youtube.com/@cal-overflow'
