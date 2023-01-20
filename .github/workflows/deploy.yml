@@ -17,6 +17,7 @@ env:
   NUXT_ENV_SITE_URL: https://cal-overflow.dev # This value does not matter here
   NUXT_ENV_FULL_NAME: cal
   NUXT_ENV_EMAIL_ADDRESS: overflowcal@gmail.com
+  NUXT_ENV_GOOGLE_ANALYTICS_ID: G-WBB8WH7D50
   STACK_TEMPLATE_FILE: template.yml
 
 jobs:
