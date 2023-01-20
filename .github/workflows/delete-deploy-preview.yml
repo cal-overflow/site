@@ -12,7 +12,7 @@ permissions:
   
 
 env:
-  STACK_NAME: portfolio-template-pr-${{ github.event.number }}
+  STACK_NAME: cal-overflow-dev-pr-${{ github.event.number }}
   REGION: us-east-1
 
 jobs:
