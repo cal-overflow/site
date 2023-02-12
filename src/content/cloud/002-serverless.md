@@ -132,7 +132,7 @@ Serverless is great at completing short and simple computations that can be comp
 
 Altogether, when serverless is a good choice, it provides incredible benefits. Although it's only sometimes more favorable than a traditional server, it is becoming more and more efficient and simple to use in recent years. The next time you're designing an architecture, consider whether Serverless can benefit you. 
 
-For an example serverless project, including a serverless API, view my [Serverless Security System](https://github.com/cal-overflow/serverless-security-system/tree/main/cloud).
+For an example serverless project--including a serverless API--view my [Serverless Security System](https://github.com/cal-overflow/serverless-security-system/tree/main/cloud).
 
 <!--
 
