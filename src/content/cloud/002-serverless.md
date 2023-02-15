@@ -6,19 +6,18 @@ date: 'February 12, 2023'
 img: 'blog-images/serverless.png'
 tags:
   - AWS
-todo:
-  - THROW IN THING TOWARDS TOP TALKING ABOUT HOW WE'LL LOOK AT EXAMPLES WITH AWS OR SOMETHING
 ---
 
 
 We've all been there: you're getting ready to spin up a server for a project or game. Suddenly, you realize you'll need some hardware to host it. \
-With the cloud, provisioning hardware is easier than ever before, but it doesn't stop there. The cloud allows us the option to design serverless applications.
+Or do you?
+<!--With the cloud, provisioning hardware is easier than ever before. But do doesn't stop there. The cloud allows us the option to design serverless applications.-->
 
 Serverless offers several great benefits and removes the need to worry about hardware.
 
 <!--more-->
 
-Let's discuss Serverless and how it can be beneficial. Additionally, we'll look at examples with [Amazon Web Services (AWS)](https://aws.amazon.com/).
+Let's discuss serverless and how it can be beneficial. Additionally, we'll look at examples with [Amazon Web Services (AWS)](https://aws.amazon.com/).
 
 ---
 
@@ -40,41 +39,9 @@ There are several benefits to using a serverless architecture. The benefits vary
 ### Cost
 One of the most obvious benefits is that you can save a lot of money with a serverless architecture. \
 Let's look at the cost benefits of an application that performs file processing. Think of websites like [tinypng.com](https://tinypng.com/), where users upload a file to be processed. **We'll assume our site has 1,000 requests each hour.**
-<!--For instance, a system that automatically turns lights on or off in a building as defined in a schedule. A non-serverless approach to this would be to create some sort of cronjobs that run on a server. However, that requires a computer to be running 24/7, which is quite costly. \
-A serverless approach would be to create some sort of `toggleLights` function. Once the function is written, we can provide it to a cloud provider. Lastly, we simply define some events, in this case daily events following a schedule, that invoke the function. -->
 
 Let's compare the cost of a traditional--always-on--server and a serverless function invoked whenever a file is uploaded. \
-We'll use the lowest-cost EC2 Instance and Lambda (Serverless) configuration. For the Lambda implementation, we'll assume the function takes 1 second to complete.
-
-<!--Let's compare the cost of using AWS's cheapest EC2 Instance vs the cheapest Serverless approach with AWS Lambda. We'll generously assume our function completes in 5 seconds (that's really slow). -->
-
-<!--
-| | EC2 (traditional) | Lambda (Serverless) |
-| --: | :-: | :-: |
-| **Cost per 1 second run** |  | $0.0000021309 |
-| **Cost per 5 second run** |  | $0.0000106545 |
-| **Cost per 10,0000 requests** |  | $0.106545 |
-| **Cost per 310,0000 requests** |  | $3.302895 |
-| **Cost per hour** | ... |  |
-| **Cost per day** | ... |  |
-| **Cost per month** | ... | $0.0003302895 |
--->
-
-<!--
-| | Lambda (Serverless) |
-| :-: | :-- |
-| **Cost per 1 second run** | $0.0000021309 |
-| **Cost per 5 second run** | $0.0000106545 |
-| **Cost per 10,0000 requests** | $0.106545 |
-| **Cost per 310,0000 requests** | $3.302895 |
-
-| | EC2 Instance (traditional) |
-| :-: | :-- |
-| **Cost per 1 ** | $0.0000021309 |
-| **Cost per 5 second run** | $0.0000106545 |
-| **Cost per 10,0000 requests** | $0.106545 |
-| **Cost per 310,0000 requests** | $3.302895 |
--->
+We'll use the lowest-cost EC2 Instance and Lambda (serverless) configuration. For the Lambda implementation, we'll assume the function takes 1 second to complete.
 
 |  | 1 hour - 1k requests | 1 day - 24k requests | 1 month - 720k requests |
 | -: | :-: | :-: | :-: |
@@ -118,19 +85,19 @@ Note there are limitations with serverless such as a limited number of concurren
 It is important to note that **serverless is not always a good choice**. This can be for various reasons but is most often related to cost and computation needs.
 
 ### Cost
- Serverless may actually cost more money than a traditional server depending on factors such as the time it takes for requests to complete and the amount of traffic.
+Serverless may actually cost more money than a traditional server depending on factors such as the time it takes for requests to complete and the amount of traffic.
 
 I recommend looking into [this blog post](https://techbeacon.com/enterprise-it/economics-serverless-computing-real-world-test) by Rafal Gancarz for an in-depth cost analysis of serverless.
 
 ### Computation needs
-Serverless is great at completing short and simple computations that can be completed in very little time. When a resource-heavy computation is necessary, Serverless may be less efficient and harder to maintain.
+Serverless is great at completing short and simple computations that can be completed in very little time. When a resource-heavy computation is necessary, serverless may be less efficient and harder to maintain.
 
 
 ---
 
 ## Conclusion
 
-Altogether, when serverless is a good choice, it provides incredible benefits. Although it's only sometimes more favorable than a traditional server, it is becoming more and more efficient and simple to use in recent years. The next time you're designing an architecture, consider whether Serverless can benefit you. 
+Altogether, when serverless is a good choice, it provides incredible benefits. Although serverless is only sometimes more favorable than a traditional server, it is becoming more and more efficient and simple to use in recent years. The next time you're designing an architecture, consider whether serverless can benefit you. 
 
 For an example serverless project--including a serverless API--view my [Serverless Security System](https://github.com/cal-overflow/serverless-security-system/tree/main/cloud).
 
