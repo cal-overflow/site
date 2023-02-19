@@ -1,10 +1,9 @@
-name: Deploy portfolio
+name: Deploy website
 
 on:
   push:
     branches:
       - main
-      - master
 
 permissions:
   id-token: write
