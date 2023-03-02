@@ -50,29 +50,29 @@ So, I refactored the project into a "template" website. I decide to share my wor
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O3ctZ6SdSLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="youtube-embed"></iframe>
 
 #### More than markdown
-You see, the way I achieved converting Markdown into beautiful HTML & CSS (like the post you're reading now) was with the [Nuxt Content](https://content.nuxtjs.org) module. Put simply, this module converts your Markdown files into HTML and CSS. The converted HTML & CSS can be referenced within your Nuxt templates with a little bit of JavaScript magic ✨.
+You see, the way I achieved converting Markdown into beautiful HTML & CSS (like the post you're reading now) was with the [Nuxt Content](https://content.nuxtjs.org) module. Put simply, this module converts your Markdown files into HTML and CSS. The converted HTML & CSS can be referenced within your Nuxt templates with a little bit of [JavaScript magic](https://github.com/nuxt/content/blob/main/docs/content-v1/en/1.getting-started/4.fetching.md) ✨.
 
 ### Revival
-That basic markdown-supported blog is about where the website stopped. That is until my friend [Michael](https://www.mamoore1440.com) forked the template. He almost immediately noticed the entire structure of the website was dependent on the Nuxt (JavaScript) code. 
+That basic markdown-supported blog is about where the website stopped. That is until mid-2022 when my friend [Michael](https://www.mamoore1440.com) forked the template. He almost immediately noticed the entire structure of the website was dependent on the Nuxt (JavaScript) code. 
 
-You see, the template was originally structured as a "portfolio" website. This meant there were four pages:
+You see, the template was originally structured as a "portfolio" website. This meant there were four distinct pages defined in Nuxt:
 - Home
 - Blog
 - Portfolio
 - Contact
 
-Each of these pages were defined within the Nuxt (JavaScript) logic. This is a problem for anyone who wants to create their own website, but wants different pages.
+Each of these pages were defined within the Nuxt (JavaScript) logic. This is a problem for anyone who wants to create their own website with a different set of pages.
 
 
-### "Throw it in `content`"
+### Throw it in `content`
 
-Michael pitched a restructure of the template in which the entire site's structure is defined within the `content` folder. The `content` folder is where Nuxt Content finds Markdown posts before converting them to HTML & CSS.
+Michael pitched a restructure of the template in which the entire site's structure is defined in one central `content` folder. \
+This is when we discussed types of users in regards to this template.
 
 <!--To help explain the concept, Michael and I got out the whiteboard.
 
 ![Whiteboard planning](/blog-images/build-a-blog-whiteboard.png) -->
 
-This is where Michael explained the different types of users in regards to this template.
 
 #### Admin users
 Administrative users are the type of individuals that know their way around Nuxt and wouldn't have any trouble constructing a Nuxt website from scratch.
@@ -86,17 +86,17 @@ Idiot users are those that don't know JavaScript or Nuxt at all. These individua
 ### We should all aspire to be idiot users
 At the end of the day, all types of users, *admins* and *idiots*, should use the template with ease. Even *admin users* shouldn't have to re-invent the wheel every time they want to add a new page.
 
-With all of this in mind, Michael and I worked to design an almost idiot-proof template.
+With all of this in mind, Michael and I worked to design an almost idiot-proof template. I came up with the name "Build-A-Blog," as a play on the Build-A-Bear brand.
 
-### Build-A-Blog
-The way it works is incredibly simple. I won't go into all the steps here: since that's heavily documented on the repository.
+
+## Build-A-Blog
+The way it works is incredibly simple. There are three core components that make the template work.
 
 
 ![Gigachad site](/blog-images/gigachad-site.png)
 
 
-
-
 ---
 
 Want to create your own website or just want to view the source code? See the [Build-A-Blog GitHub repository](https://github.com/cal-overflow/Build-A-Blog).
+
