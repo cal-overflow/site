@@ -6,5 +6,8 @@ secondaryView: post-view
 tags: 
   - 'Website Development'
   - 'University Course'
+  - 'Frontend'
+  - 'Backend'
+  - 'Hackathon'
   - 'AWS'
 ---
