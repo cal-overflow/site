@@ -5,7 +5,8 @@ slug: we-all-start-somewhere
 date: October 1, 2019
 img: 'feature-images/custom.christianlisle.com.jpg'
 tags: 
-  - Website Development
+  - Website
+  - Simple
 ---
 
 After taking a couple Web Design courses at my high school I decided to make my own website, not using WordPress or another website-building tool.

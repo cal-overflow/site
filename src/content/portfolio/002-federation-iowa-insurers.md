@@ -5,7 +5,8 @@ slug: improving-accessibility-and-adding-security
 date: October 29, 2019
 img: 'feature-images/federation-of-iowa-insurers.png'
 tags:
-  - Website Development
+  - Website
+  - Simple
 ---
 
 Some employees at the Federation of Iowa Insurers reached out to me after they were looking for some changes to their website.

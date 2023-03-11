@@ -5,10 +5,12 @@ slug: pacman-overflow
 date: 'August 14, 2022'
 img: 'feature-images/pacman-game-over.png'
 tags:
-  - Pac-Man
+  - Game
+  - Website
+  - Complex
   - AWS
   - Schizo Sunday
-  - Abandoned Projects
+  - Abandoned Project
 ---
 
 This last Spring, I found myself playing [CyRun](/portfolio/cyrun), the multiplayer Pac-Man game I helped create for [COM S 319](/blog/com-s-319) a few years back. \

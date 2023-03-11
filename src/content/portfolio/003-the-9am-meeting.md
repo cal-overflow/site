@@ -5,7 +5,8 @@ slug: the-9am-meeting
 date: November 14, 2019
 img: 'feature-images/the-9am-meeting.png'
 tags:
-  - Website Development
+  - Website
+  - Complex
 ---
 
 The 9am Meeting started off as a face-to-face meeting between Nick Villotti and his co-workers at Cellular Advantage. The idea was written about by the company’s CEO – Doug Ecklund – in the book [The 9 a.m. Meeting](https://www.amazon.com/m-Meeting-High-Impact-Meaningful-Energizing-ebook/dp/B01GGUS9T6).

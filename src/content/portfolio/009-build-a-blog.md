@@ -4,11 +4,10 @@ title: This Website
 slug: build-a-blog
 date: March 12, 2023
 img: feature-images/build-a-blog-whiteboard.png
-tags: [ TODO ]
-todo:
-  - TODO
-  - PUT TOP OF MARKDOWN for this file inside the Posts section post example!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  - Come up with tags
+tags:
+  - Website
+  - Complex
+  - Schizo Sunday
 ---
 
 
@@ -148,7 +147,10 @@ title: This Website
 slug: build-a-blog
 date: March 12, 2023
 img: feature-images/build-a-blog-whiteboard.png
-tags: [ TODO ]
+tags:
+  - Website
+  - Complex
+  - Schizo Sunday
 ---
 
 When someone wants to build a website, you can often classify them as one of two user types.
@@ -164,6 +166,7 @@ The original goal of this website was a simple portfolio. However, the potential
 
 ## How did we get here?
 Let's backtrack a little bit.
+
 ...
 ```
 <small>
