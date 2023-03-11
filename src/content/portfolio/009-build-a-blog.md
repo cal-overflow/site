@@ -11,7 +11,7 @@ tags:
 ---
 
 
-When someone wants to build a website, you can often classify them as one of two user types.
+When someone wants to build a website, you can often classify them as one of three user types.
 
 - [Admin](#admin-users) 🤓
 - [In-between](#in-between-users) 🤔
@@ -153,7 +153,7 @@ tags:
   - Schizo Sunday
 ---
 
-When someone wants to build a website, you can often classify them as one of two user types.
+When someone wants to build a website, you can often classify them as one of three user types.
 
 - [Admin](#admin-users) 🤓
 - [In-between](#in-between-users) 🤔
