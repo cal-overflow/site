@@ -1,5 +1,5 @@
 ---
-id: 9
+id: 10
 title: This Website
 slug: build-a-blog
 date: March 12, 2023
@@ -148,7 +148,7 @@ A snippet of the Markdown file for this post is shown below.
 
 ```md
 ---
-id: 9
+id: 10
 title: This Website
 slug: build-a-blog
 date: March 12, 2023
@@ -167,7 +167,7 @@ When someone wants to build a website, you can often classify them as one of thr
 - [Idiot](#idiot-users) 😧
 
 The original goal of this website was a simple portfolio. However, the potential for an abstract, simple website builder arose early in development. With this idea, another question arose:
-> **How do we build a website that even an idiot can use?**
+> How do we build a website that even an idiot can use?
 
 <!--more-->
 
@@ -184,7 +184,7 @@ Let's backtrack a little bit.
 ```
 <small>
 
-  View the full file [here](https://github.com/cal-overflow/site/blob/main/src/content/blog/009-build-a-blog.md?plain=1)
+  View the full file [here](https://github.com/cal-overflow/site/blob/main/src/content/portfolio/010-build-a-blog.md?plain=1)
 </small>
 
 ### Sections
