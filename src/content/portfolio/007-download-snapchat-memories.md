@@ -5,7 +5,9 @@ slug: download-snapchat-memories
 date: February 20, 2022
 img: 'feature-images/memories.jpg'
 tags: 
-  - Tutorials
+  - Tutorial
+  - Application
+  - Simple
 ---
 
 People nowadays take hundreds, and even thousands, of photos and videos regularly. Millions of people save these images and photos on social networking apps like Snapchat.

@@ -5,7 +5,8 @@ slug: businesses-need-websites
 date: November 29, 2019
 img: 'feature-images/roxy-seven-salon.png'
 tags:
-  - Website Development
+  - Website
+  - Simple
 ---
 
 Roxy Seven Salon is a local hair salon that I grew up close to in my hometown Waukee, Iowa. I reached out to Laura – the owner – and asked if she wanted a website for her business. I made her website for free since it was my first website I had ever made other than small projects in Web Design courses at my high school.

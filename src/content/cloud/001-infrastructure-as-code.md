@@ -3,7 +3,7 @@ id: 1
 title: Infrastructure as Code
 slug: infrastructure-as-code
 date: 'Janurary 12, 2023'
-img: 'blog-images/infrastructure-as-code.png'
+img: 'feature-images/infrastructure-as-code.png'
 tags:
   - AWS
 ---

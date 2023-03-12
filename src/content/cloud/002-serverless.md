@@ -3,7 +3,7 @@ id: 2
 title: Serverless
 slug: serverless
 date: 'February 12, 2023'
-img: 'blog-images/serverless.png'
+img: 'feature-images/serverless.png'
 tags:
   - AWS
 ---
