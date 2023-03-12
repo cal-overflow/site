@@ -5,7 +5,9 @@ slug: building-a-security-system
 date: October 14, 2021
 img: 'feature-images/security-system-snippet.png'
 tags:
-  - Abandoned Projects
+  - Abandoned Project
+  - Application
+  - Complex
 ---
 
 Picture this: You had a great time building your last side project over winter break but have since taken a break from side projects to focus on school. That’s the headspace I was in last spring after refining my previous project, [CyRun](/portfolio/cyrun). The semester was ending, and I was getting ready to start my [software engineering apprenticeship](https://www.sourceallies.com/2021/09/2021-apprentices-part-1).

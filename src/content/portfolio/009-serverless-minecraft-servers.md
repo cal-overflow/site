@@ -6,7 +6,9 @@ date: 'November 20, 2022'
 img: 'feature-images/computer-in-the-clouds.png'
 tags:
   - AWS
-  - Abandoned Projects
+  - Complex
+  - Abandoned Project
+  - Schizo Sunday
 ---
 
 

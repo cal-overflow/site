@@ -4,10 +4,13 @@ description: 'My most significant work and experiences. This varies from failed 
 primaryView: post-feed
 secondaryView: post-view
 tags: 
-  - 'Website Development'
-  - 'Abandoned Projects'
-  - 'Tutorials'
-  - 'Pac-Man'
+  - 'Website'
+  - 'Game'
+  - 'Application'
+  - 'Tutorial'
+  - 'Simple'
+  - 'Complex'
+  - 'Abandoned Project'
   - 'AWS'
   - 'Schizo Sunday'
 ---
