@@ -18,9 +18,15 @@ When someone wants to build a website, you can often classify them as one of thr
 - [Idiot](#idiot-users) 😧
 
 The original goal of this website was a simple portfolio. However, the potential for an abstract, simple website builder arose early in development. With this idea, another question arose:
-> How do we build a website that even an idiot can use?
+> **How do we build a website that even an idiot can use?**
 
 <!--more-->
+
+
+<small>
+
+If you're offended by what I just said, read on, and you'll learn that it's [good to be an idiot](#we-should-all-aspire-to-be-idiot-users).
+</small>
 
 ## How did we get here?
 Let's backtrack a little bit.
@@ -32,7 +38,7 @@ It was time to develop a website with a modern frontend framework like Nuxt.
 I outlined the two requirements before starting development.
 
 #### Requirement 1 - Static Rendering
-Nuxt lets you to bundle your web application into static HTML/CSS/JavaScript files. You can rely on static hosting instead of traditional (costlier) server-side rendering. <!-- The primary reason this is important is that it eliminates the need for a server to host your website  -->
+Nuxt lets you bundle your web application into static HTML/CSS/JavaScript files. You can rely on static hosting instead of traditional (costlier) server-side rendering. <!-- The primary reason this is important is that it eliminates the need for a server to host your website  -->
 
 #### Requirement 2 - Markdown blog posts 📝
 Over the last few years, I've fallen in love with [Markdown](https://daringfireball.net/projects/markdown). I wanted a simple, straightforward way of writing blog posts within the website.
@@ -84,22 +90,23 @@ See the original Nuxt folder structure below.
 ### Throw it in `content`
 
 Michael pitched a restructure of the template in which a user can define the entire site's structure in one central `content` folder. \
-This is when we discussed types of users in regards to this template. The three user types we came up with are denoted below.
+This was when we discussed the types of users in regarding this template. The three user types we came up with are denoted below.
 
 #### Admin users
 "Administrative users" are the type of individuals that know their way around Nuxt and wouldn't have any trouble constructing a Nuxt website from scratch.
 
 #### In-between users
-In-between users aren't very familiar with Nuxt and its complexities, but likely know a thing or two about JavaScript.
+In-between users aren't familiar with Nuxt and its complexities but likely know a thing or two about JavaScript.
 
 #### Idiot users
-Idiot users are those that don't know JavaScript or Nuxt at all. These individuals may know how to write Markdown, but that's about it. \
+Idiot users are those that don't know JavaScript or Nuxt at all. These individuals may know how to write Markdown, but that's about it.
+
 <small class="text-primary-light dark:text-primary-dark">
-Don't worry, being an idiot isn't a bad thing. It just means you have much to learn!
+  Don't worry; being an idiot isn't a bad thing. It just means you have much to learn!
 </small>
 
 ### We should all aspire to be idiot users
-At the end of the day, all types of users, *admins* and *idiots*, should use the template with ease. Even *admin users* shouldn't have to re-invent the wheel every time they want to add a new page.
+All types of users, *admins* and *idiots* should design a website with ease. Even *admin users* shouldn't have to reinvent the wheel whenever they want to add a new page.
 
 The goal was to have users define the entire structure of their website within the `content` folder. An early version of my website's structure after this reformation is shown below.
 ```text
@@ -129,14 +136,13 @@ With all of this in mind, Michael and I worked to design an almost idiot-proof t
 ---
 
 ## Build-A-Blog
-There are three core components that make the template work: [posts](#posts), [sections](#sections), and [views](#views). I describe the functionality of each of these components in detail below. 
-<!--More information for each of these components can be found on the project [GitHub repository](https://github.com/cal-overflow/Build-A-Blog). -->
+Three core components make the template work: [posts](#posts), [sections](#sections), and [views](#views). I describe the functionality of each of these components in detail below. 
 
 ### Posts
 Let's start with something simple: Posts.
 
 As I initially hoped, posts are written in [Markdown](https://www.markdownguide.org/). \
-Each post is a markdown file within a section (i.e., `content/portfolio/` directory). Posts include metadata at the top of the file, such as the title, feature image, post id.
+Each post is a markdown file within a section (i.e., `content/portfolio/` directory). Posts include metadata at the top of the file, such as the title, feature image, and post id.
 
 A snippet of the Markdown file for this post is shown below.
 
@@ -183,11 +189,11 @@ The following metadata is required for each section. The metadata is defined wit
 1. A `primaryView` rendered for the section's default route (i.e., `/blog/` for `src/content/blog/index.md`)
 1. A `secondaryView` rendered for the posts within the section (i.e., `/blog/post-1` for `src/content/blog/post-1.md`)
 
-Other metadata may be required depending on the views.
+Some views may require additional metadata.
 
 ### Views
-A view is essentially a layouts assigned to a section. \
-Many sections include two views: A **primary view**, and a **secondary view**. The primary view is shown on the section default route, whereas the secondary view is shown on subroutes.
+A view is a layout assigned to a section. \
+Many sections include two views: A **primary view** and a **secondary view**. The primary view is shown on the section default route, whereas the secondary view is presented on subroutes.
 
 
 #### Example
@@ -197,10 +203,10 @@ The **primary view** for my portfolio section is a [post feed](https://github.co
 
 As you may have guessed, visiting `/portfolio/build-a-blog` shows the **secondary view**. The secondary view for my portfolio section is called the [post](https://github.com/cal-overflow/Build-A-Blog/blob/main/src/components/views/Post.vue) view, as its purpose is to display a post.
 
-![Gigachad site](/blog-images/gigachad-site.png)
-
 
 ---
 
-Want to create your own website or just want to view the source code? See the [Build-A-Blog GitHub repository](https://github.com/cal-overflow/Build-A-Blog).
+My initial plans for a basic portfolio website became something much more complex. The originally solo project turned into a quite collaborative project. Anyone with only a little Markdown experience can now build a website. The project has evolved into one of my favorites thus far.
+
+Do you want to create a website or view the template's source code? See the [Build-A-Blog GitHub repository](https://github.com/cal-overflow/Build-A-Blog).
 
