@@ -1,9 +1,9 @@
 import { shallowMount } from '@vue/test-utils';
 import Chance from 'chance';
-import generatePost from '../../helpers/postGenerator';
+import generatePost from '../../../helpers/postGenerator';
 import PostFeed from '@/components/views/PostFeed.vue';
 import PostPreview from '@/components/previews/Post.vue';
-import Divider from '@/components/helpers/Divider.vue';
+import Divider from '@/components/misc/Divider.vue';
 
 const chance = new Chance();
 const postLimit = 10;
@@ -14,6 +14,9 @@ describe('PostFeed component', () => {
   const stubs = {
     'nuxt-link': true,
     'nuxt-content': true,
+  };
+  const mocks = {
+    $route: { query: {} },
   };
 
   // const nuxtContentMock = {
@@ -30,6 +33,7 @@ describe('PostFeed component', () => {
 
       wrapper = shallowMount(PostFeed, {
         stubs,
+        mocks,
         propsData: { content: fakePosts, dir: chance.string() }
       });
     });
@@ -49,6 +53,7 @@ describe('PostFeed component', () => {
 
       wrapper = shallowMount(PostFeed, {
         stubs,
+        mocks,
         propsData: {
           metadata: {
             title,
@@ -102,6 +107,7 @@ describe('PostFeed component', () => {
   describe('given no metadata prop is given', () => {  
     beforeEach(() => {
       wrapper = shallowMount(PostFeed, {
+        mocks,
         propsData: {
           content: fakePosts,
           dir: chance.string()

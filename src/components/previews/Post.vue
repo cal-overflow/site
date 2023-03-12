@@ -1,5 +1,5 @@
 <template>
-  <div v-if="post" :class="`post-preview-card ${getCardStyle}`">
+  <card v-if="post" :class="`post-preview-card ${getCardStyle}`">
     <div :class="getImageContainerStyle" style="aspect-ratio: 1 / 1;">
       <nuxt-link ref="feature-image" :to="`${currentRoute}/${post.slug}`" :class="`w-full h-full motion-safe:animate-blur-fade-in-slow`">
         <img :src="image" class="object-cover w-full h-full" />
@@ -11,15 +11,15 @@
         {{post.title}}
       </nuxt-link>
       <div :class="showMinimalContent ? 'hidden md:block' : ''">
-        <nuxt-content ref="excerpt" :document="excerpt" :editable="false" :class="`prose leading-snug prose-a:text-inherit prose-a:no-underline dark:prose-invert transition ${showMinimalContent ? 'minimal-preview-text' : ''}`" />
+        <nuxt-content ref="excerpt" :document="excerpt" :editable="false" :class="`prose leading-snug prose-a:text-inherit prose-a:no-underline dark:prose-invert transition pointer-events-none prose-code:before:content-none prose-code:after:content-none ${showMinimalContent ? 'minimal-preview-text' : ''}`" />
         <nuxt-link ref="continue-reading" :to="`${currentRoute}/${post.slug}`" :class="`text-extra-gray-dark dark:text-extra-gray-light font-thin text-sm underline hover:no-underline transition ${showMinimalContent ? 'hidden md:block': ''}`">
           Continue reading
         </nuxt-link>
       </div>
     </div>
-  </div>
+  </card>
 
-  <div v-else ref="lazy-load-post-preview" :class="`post-preview-card ${getCardStyle}`">
+  <card v-else ref="lazy-load-post-preview" :class="`post-preview-card ${getCardStyle}`">
     <div :class="getImageContainerStyle" style="aspect-ratio: 1 / 1;">
       <div class="bg-gray-500 object-cover w-full h-full" />
     </div>
@@ -31,12 +31,17 @@
       <div class="bg-gray-400 w-48 h-3 mb-2"/>
       <div class="bg-gray-300 w-24 h-3" />
     </div>
-  </div>
+  </card>
 </template>
 
 <script>
+import Card from '@/components/cards/Card.vue';
+
 export default {
   name: 'post-preview',
+  components: {
+    Card,
+  },
   props: {
     post: {
       type: Object,
@@ -66,7 +71,7 @@ export default {
   },
   computed: {
     currentRoute() {
-      return this.$route.fullPath;
+      return this.$route.fullPath.split('?')[0];
     },
     excerpt() {
       return {
@@ -74,7 +79,7 @@ export default {
       };
     },
     getCardStyle() {
-      let style = `bg-card-light dark:bg-card-dark m-6 p-6 hover:rounded shadow-md dark:shadow-shadow-dark hover:shadow-none motion-safe:animate-fade-in transition ${this.classes}`;
+      let style = `${this.classes}`;
 
       if (!this.post)
         style += ' motion-safe:animate-pulse';
@@ -85,7 +90,7 @@ export default {
       if (this.fullWidth) {
         style += ' md:col-span-2 md:flex';
       }  else {
-        style += ' md:col-span-1';
+        style += ' md:col-span-1 md:flex-col';
       }
 
       return style;

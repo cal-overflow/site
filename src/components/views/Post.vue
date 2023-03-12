@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-screen-lg mx-auto">
-    <div id="post-card" class="bg-card-light dark:bg-card-dark m-0 md:m-6 p-4 flex flex-wrap shadow-lg dark:shadow-shadow-dark hover:shadow-none hover:rounded motion-safe:animate-fade-in transition">
+    <card id="post-card" class="m-0 md:m-6 p-4 flex flex-wrap">
       <div class="w-full p-4">
         <div v-if="!isEditing">
           <p id="post-title" class="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 !leading-tight">{{ content.title }}</p>
@@ -14,7 +14,7 @@
                   v-for="(tag, i) in content.tags" 
                   :key="`tags-${tag}`"
                 >
-                  <nuxt-link :to="`/tags/${tag.toLowerCase().replace(' ', '-')}`" class="hover:underline">{{ tag }}</nuxt-link>{{ (i + 1) === content.tags.length ? '' : ', ' }}
+                  <nuxt-link :to="`/${dir}?tag_filter=${encodeURIComponent(tag)}`" class="hover:underline">{{ tag }}</nuxt-link>{{ (i + 1) === content.tags.length ? '' : ', ' }}
                 </span>
               </span>
             </p>
@@ -37,22 +37,24 @@
         <nuxt-content 
           id="post-content" 
           :document="content" 
-          class="prose m-4 mx-auto max-w-none prose-img:w-max prose-img:max-h-[100vh] prose-img:mx-auto prose-a:underline hover:prose-a:no-underline prose-a:text-primary-light dark:prose-invert dark:prose-a:text-primary-dark transition"
+          class="prose m-4 mx-auto max-w-none prose-img:w-max prose-img:max-h-[100vh] prose-img:mx-auto prose-a:underline hover:prose-a:no-underline prose-a:text-primary-light dark:prose-invert dark:prose-a:text-primary-dark transition prose-code:before:content-none prose-code:after:content-none"
           @startEdit="isEditing = true" 
           @endEdit="isEditing = false" 
         />
       </div>
-    </div>
+    </card>
   </div>
 </template>
 
 <script>
-import Divider from '@/components/helpers/Divider.vue';
+import Card from '@/components/cards/Card.vue';
+import Divider from '@/components/misc/Divider.vue';
 
 export default {
   name: 'post-view',
   components: {
-    Divider
+    Card,
+    Divider,
   },
   props: {
     dir: {
