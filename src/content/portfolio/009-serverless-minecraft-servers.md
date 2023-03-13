@@ -8,7 +8,7 @@ tags:
   - AWS
   - Complex
   - Abandoned Project
-  - Schizo Sunday
+  - Software Sunday
 ---
 
 

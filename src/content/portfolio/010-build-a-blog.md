@@ -7,7 +7,7 @@ img: feature-images/build-a-blog-whiteboard.png
 tags:
   - Website
   - Complex
-  - Schizo Sunday
+  - Software Sunday
 ---
 
 
@@ -156,7 +156,7 @@ img: feature-images/build-a-blog-whiteboard.png
 tags:
   - Website
   - Complex
-  - Schizo Sunday
+  - Software Sunday
 ---
 
 
