@@ -12,5 +12,5 @@ tags:
   - 'Complex'
   - 'Abandoned Project'
   - 'AWS'
-  - 'Schizo Sunday'
+  - 'Software Sunday'
 ---

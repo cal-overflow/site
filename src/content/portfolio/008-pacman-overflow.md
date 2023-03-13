@@ -9,7 +9,7 @@ tags:
   - Website
   - Complex
   - AWS
-  - Schizo Sunday
+  - Software Sunday
   - Abandoned Project
 ---
 
