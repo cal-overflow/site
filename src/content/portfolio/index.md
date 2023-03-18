@@ -1,6 +1,5 @@
 ---
 title: Portfolio
-description: 'My most significant work and experiences. This varies from failed projects to fully functional apps, websites, games, and more.'
 primaryView: post-feed
 secondaryView: post-view
 tags: 
@@ -14,3 +13,5 @@ tags:
   - 'AWS'
   - 'Software Sunday'
 ---
+
+My most significant work and experiences. This varies from failed projects to fully functional apps, websites, games, and more.

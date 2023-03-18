@@ -1,6 +1,5 @@
 ---
 title: Blog
-description: ''
 primaryView: post-feed
 secondaryView: post-view
 tags: 
@@ -11,3 +10,4 @@ tags:
   - 'Hackathon'
   - 'AWS'
 ---
+
