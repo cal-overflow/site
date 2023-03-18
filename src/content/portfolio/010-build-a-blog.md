@@ -3,7 +3,7 @@ id: 10
 title: This Website
 slug: build-a-blog
 date: March 12, 2023
-img: feature-images/build-a-blog-whiteboard.png
+img: feature-images/IMG_0057.png
 tags:
   - Website
   - Complex
