@@ -1,8 +1,8 @@
 ---
-id: 3
+id: 2
 title: Serverless API
 slug: serverless-api
-date: TO BE DETERMINED
+date: April 2, 2023
 img: 'feature-images/IMG_0057.png'
 tags: 
   - Complex
@@ -14,3 +14,8 @@ EXCERPT
 
 Remaining post content...
 
+
+TO INCLUDE:
+
+- Mention why API Gateway is not being used
+- Environment variables (System config)

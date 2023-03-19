@@ -1,8 +1,8 @@
 ---
-id: 2
+id: 1
 title: Cloud Architecture
 slug: cloud-architecture
-date: TO BE DETERMINED
+date: March 26, 2023
 img: 'feature-images/IMG_0057.png'
 tags: 
   - Complex

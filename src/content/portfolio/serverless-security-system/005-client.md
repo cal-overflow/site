@@ -1,7 +1,7 @@
 ---
-id: 1
+id: 5
 title: Client (cameras)
-slug: cloud-architecture
+slug: client
 date: TO BE DETERMINED
 img: 'feature-images/IMG_0057.png'
 tags: 
