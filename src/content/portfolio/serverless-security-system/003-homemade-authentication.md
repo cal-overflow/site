@@ -34,10 +34,10 @@ We'll look at the two primary components of oAuthWho: tokens and the API integra
 Many authentication systems leverage tokens. Instead of sending sensitive data, such as the password, in all API calls, access tokens can be used to identify a user. As its name suggests, access tokens can indicate what a user can or cannot access. In some authentication systems, these tokens are [JWT (JSON Web Tokens)](https://jwt.io), meaning they can be parsed and their data read. However, tokens are treated as nothing more than random identifiers in oAuthWho.
 <!--In most authentication systems, tokens include small pieces of data since they leverage tools like [JSON Web Tokens](https://jwt.io). -->
 oAuthWho treats tokens as "secret" identifiers. Once logged into the system, users are provided an access token that can be leveraged for accessing various resources. Instead of sending my username and password each time I need to access footage, I can send only my token. \
-Below is a screenshot of an example `User` DynamoDB table. This table stores the information for each user, including authentication data.
+Below is a screenshot of an example `User` DynamoDB table.
 
-# TODO: Insert picture of A SIMPLE DynamoDB user table
-Make the table look good (simple to understand).
+![Picture of user DynamoDB table](/blog-images/serverless-security-system/users-dynamo-table-example.png)
+This table stores the information for each user, including authentication data.
 
 ## API Integration
 Let's look at how the authentication system is built into the serverless API via the `/auth` API calls. \
