@@ -3,7 +3,7 @@ id: 4
 title: System Interface
 slug: frontend
 date: May 6, 2023
-img: 'feature-images/IMG_0057.png'
+# img: ''
 tags: 
   - Simple
   - Cloud
