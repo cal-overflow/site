@@ -19,3 +19,12 @@ TO INCLUDE:
 
 - Mention why API Gateway is not being used
 - Environment variables (System config)
+- ...
+- Include the Configuration pulled from S3 like below
+```text
+configuration/
+  settings.json
+  clients/
+    06d22a99.json
+    e70b0ffe.json
+```

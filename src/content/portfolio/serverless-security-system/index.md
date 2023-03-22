@@ -4,7 +4,7 @@ title: Serverless Security System
 date: November 2023 - Present
 primaryView: post-feed
 secondaryView: post-view
-img: 'feature-images/test-feature-images/IMG_0085.JPG'
+# img: '' # TODO
 tags: 
   - 'Simple'
   - 'Complex'
@@ -14,7 +14,7 @@ tags:
 ---
 
 If I only had two sentences to describe this project, I would say:
-> A full-stack cloud-based security system involving data several simultaneous data streams from hardware devices. \
+> A full-stack cloud-based security system involving several simultaneous data streams from hardware devices. \
 > Oh, and it's serverless!
 
 Although I didn't realize it while starting the project, I was beginning development on my most complex project yet.
@@ -36,3 +36,11 @@ Note that some links will not function while this section is incomplete.
 
 #### Want to be updated when I finish another post? 
 Click the subscribe (RSS) button at the bottom of this page to be notified whenever a new post is published.
+
+<divider></divider>
+
+### Glossary
+- CDN: Content Delivery Network
+- AWS: [Amazon Web Services](https://aws.amazon.com)
+- S3: [Simple Storage Service](https://aws.amazon.com/s3)
+

@@ -3,7 +3,7 @@ id: 3
 title: oAuth Who? 🕵️
 slug: authentication
 date: April 16, 2023
-img: 'feature-images/test-feature-images/IMG_0087.JPG'
+img: 'feature-images/IMG_0087.png'
 tags: 
   - Complex
   - Cloud
