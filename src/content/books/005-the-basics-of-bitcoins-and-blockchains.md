@@ -55,7 +55,64 @@ A central bank authority buys assets, usually bonds, from commercial banks in a 
 
 Central banks increase the amount of money by buying assets, and they do have the ability to remove money by selling assets (although, this rarely happens far less).
 
+### Cryptography
+#### Plaintext
+Human messages (i.e., an English sentence). *Plaintext* is Easily interpretable.
 
+#### Cyphertext
+Text that cannot be read until it has been converted into *plaintext*.
+
+#### Encryption
+The process of converting *plaintext* into *cyphertext*.
+
+#### Decryption
+The process of turning *cyphertext* into *plaintext*.
+
+#### Symmetric Cryptography
+Cryptography that leverages a single, shared "secret" key for both encrypting and decrypting messages.
+
+<small>
+
+Uses the same key for both encrypting and decrypting. \
+This is not secure because it will require the same "secret" key to be shared between sender & receiver.
+</small>
+
+#### Asymmetric Cryptography
+Also known as **Public Key Cryptography**. \
+Cryptography that leverages two keys, a *public* and a *private* key.
+
+The *public* key that is used to encrypt messages is not the same as the *private* key used to decrypt messages.
+
+#### Key Pair
+A key pair is a *public* and a *private* key that are mathematically linked. \
+The *public* key can be shared with the world, as it is used for encrypting messages. The *private* key should be kept secret, as it is used for decrypting messages.
+
+#### Hash
+Hashing is used to generate a digital "fingerprint" for a set of data. \
+The data can be anything from a single file to an entire hard drive.
+
+A hash function is sufficient if it achieves the following:
+1. Deterministic (same input always results in same output)
+1. Quick to compute hash for any message
+1. Impossible to find message by reversing hash (without entering original input and finding a match)
+1. A small change to the input will result in drastically different hash (similar inputs result completely different output)
+1. Each input has a unique output (no "hash clash")
+
+<small>
+
+Industry standard hash functions: **MD5**, **SHA-256**
+</small>
+
+#### Digital Signatures
+A signature that is mathematically linked to the content signed and a *private* key. \
+Digital signatures are far more secure than a traditional signature because the signature must be linked to the content being signed.
+
+Essentially:
+```text
+Message + Private Key -> Digital signature
+
+Message + Digital signature + Public Key -> Valid/Invalid
+```
 
 
 ## Quotes
@@ -80,3 +137,10 @@ Central banks increase the amount of money by buying assets, and they do have th
 > There are two worries with QE:
 > 1. With excessive QE, the value of money will go down as there is more of it sloshing around in the private sector, which is not great for savers, and could also cause price inflation (though we haven't seen this yet).
 > 2. A central bank owns risky financial assets that could go down in value, damaging the central bank's balance sheet when the value of the assets it owns fails.
+
+### Cryptography
+#### Regarding real and digital signatures
+> Your wet-ink-on-paper signature is your signature and doesn't change based on the item being signed: when you sign a cheque, a letter, or a document, *the whole point* is that your signature looks the same. This is easy for other people to copy! This is really terrible security! \
+> In contrast, a digital signature is only valid for that *exact* piece of data, and so it cannot be copied and pasted underneath another piece of data, not can someone else re-use it for their own purposes. Any tampering with the message will result in the signature being invalidated. The digital signature is a one-time 'proof' that the person with the private key really did approve that exact message. No one else in the world can create that digital signature except you, unless they have your private key.
+
+> In a blockchain system, where there is deliberately no organisation to provide or maintain accounts for you, your digital signatures are the critical piece of evidence that entitle you to make transactions.
