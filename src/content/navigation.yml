@@ -13,6 +13,8 @@ footer:
   navItems: 
     - title: 'Contact Me'
       href: '/contact'
+    - title: '📚'
+      href: '/books'
   imageNavItems:
     youtubeUrl: 'https://www.youtube.com/@cal-overflow'
     githubUrl: 'https://github.com/cal-overflow'
