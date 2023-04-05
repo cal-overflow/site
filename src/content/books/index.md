@@ -36,11 +36,22 @@ These books either offered a new perspective on a topic or were just really enjo
 - The art of not giving a f***
 - Everything is f***ed
 - The 7 habits of highly effective people
+- The art of talking to anyone
 - The interpretation of dreams (Sigmund Freud)
 - Bowling alone
+<!--
+Regarding the next four books:
+1. I'm not an alcoholic lol. I'm actually rather "anti-alcohol."
+2. I'm unsure where I stand regarding Marijuana use.
+3. I do like coffee, but I don't know how I should feel about caffeine.
+I simply want to understand and be educated on these substances, as they are widely used throughout society
+-->
+- Drunk: How We Sipped, Danced, and Stumbled Our Way to Civilization (Edward Slingerland)
+- Drink? (David Nutt)
+- The Science of Marijuana (Leslie L. Iversen)
+- The World of Caffeine: The Science and Culture of the World's Most Popular Drug (Bennett Alan Weinberg)
 - How to win friends and influence people
 - The power of habit
-- The art of talking to anyone
 - Think & Grow Rich
 - Do hard things (Steve Magness)
 - I used to me a miserable F***
@@ -50,8 +61,6 @@ These books either offered a new perspective on a topic or were just really enjo
 - The price of time
 - The body keeps the score
 - Anti-fragile
-- Letters from a Stoic
-- 4000 weeks
 - Five wealth secrets
 - Finite and Infinite games
 - *A Book covering corporations by Garret Sutton <!-- Still need to determine which book of his to read -->
@@ -60,6 +69,12 @@ These books either offered a new perspective on a topic or were just really enjo
 - Nudge (Cass Sunstein, Richard Thaler) <!-- Referenced in "Thinking, Fast and Slow" -->
 - A history of money (Glyn Davies) <!-- Referenced in "The basics of Bitcoins and Blockchains" -->
 - Debt: The first 5,000 years (David Graeber) <!-- Referenced in "The basics of Bitcoins and Blockchains" -->
+
+#### Other books I may read, but are of no priority
+- The Caffeine Advantage
+- Letters from a Stoic
+- 4000 weeks
+
 
 <!--
 #### Genres to read more

@@ -7,6 +7,7 @@ img: 'feature-images/IMG_0153.png'
 tags:
   - TODO
   - Economics
+  - Finance
   - Technology
 ---
 
@@ -20,10 +21,41 @@ THIS POST IS A WORK IN PROGRESS
 #### Blockchains
 Replicated databases that act as the ultimate books and records--the 'golden source' that represents the universal understanding of the current status of all units of the digital asset.
 
+#### Currencies
+- Barter (basic trading of items)
+- Commodity money (money is a valuable thing, such as grain)
+- Representative money (money is a claim on the valuable thing)
+- Fiat currency (money is completely separate from any valuable thing) (what we use currently)
+
 #### The three functions of money
 1. **Medium of exchange** means it is a payment mechanism. Must be widely accepted.
 1. **Store of value** means that money will (in the near term) be worth relatively the same quantitative value.
 1. **Unit of account** means it can be used as a quantitative value assessment (scale) for services/goods.
+
+
+### Value
+Value is incredibly difficult to define. However, it can be separated into two categories.
+
+#### Intrinsic Value
+Something is intrinsically valuable if it provides a sense of immediate utility (value). A simple example is a loaf of bread. A loaf of bread can be consumed and therefore has utility.
+
+#### Extrinsic Value
+Something is extrinsically valuable if its value is not Intrinsic. For example, a US Dollar does not inherent immediate utility. Instead, it is extrinsically valuable because it can be traded for something of (intrinsic) value.
+
+#### Cryptocurrency & Value
+A common argument against Cryptocurrency is that it cannot be "intrinsically" valuable. However, the USD, or even the gold "Standard" is not intrinsically valuable, either.
+
+### Money
+#### Legal Tender
+The state of a currency when it is legally accepted as a means of payment for merchants and can be used to pay taxes.
+
+#### Quantitative Easing (QE)
+Pertaining to fiat currencies. Often referred to as "Printing money." \
+A central bank authority buys assets, usually bonds, from commercial banks in a secondary market.
+
+Central banks increase the amount of money by buying assets, and they do have the ability to remove money by selling assets (although, this rarely happens far less).
+
+
 
 
 ## Quotes
@@ -44,4 +76,7 @@ Replicated databases that act as the ultimate books and records--the 'golden sou
 
 > Pegs always eventually break.
 
-
+#### QE
+> There are two worries with QE:
+> 1. With excessive QE, the value of money will go down as there is more of it sloshing around in the private sector, which is not great for savers, and could also cause price inflation (though we haven't seen this yet).
+> 2. A central bank owns risky financial assets that could go down in value, damaging the central bank's balance sheet when the value of the assets it owns fails.
