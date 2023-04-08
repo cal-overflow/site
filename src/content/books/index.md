@@ -35,22 +35,19 @@ These books either offered a new perspective on a topic or were just really enjo
   <summary class="text-lg font-bold hover:underline cursor-pointer">Reading list</summary>
 
   ### What I'm planning to read next
-
-  - The basics of bitcoin and blockchains <!-- Currently reading - I don't know anything about crypto 🙈 -->
+  - The art of talking to anyone
   - Behold the pale horse <!-- A friend recommended this to me. Not sure what to expect -->
   - The art of not giving a f***
   - Everything is f***ed
   - The 7 habits of highly effective people
-  - The art of talking to anyone
   - The interpretation of dreams (Sigmund Freud)
   - Bowling alone
-  <!--
-  Regarding the next four books:
-  1. I'm not an alcoholic lol. I'm actually rather "anti-alcohol."
-  2. I'm unsure where I stand regarding Marijuana use.
-  3. I do like coffee, but I don't know how I should feel about caffeine.
-  I simply want to understand and be educated on these substances, as they are widely used throughout society
-  -->
+<!--
+I want to know more about why everyone seems to love these substances. \
+I'm not an alcoholic lol. I'm actually rather "anti-alcohol." \
+I'm unsure where I stand regarding Marijuana use. \
+I love coffee, but I don't know how I should feel about caffeine.
+-->
   - Drunk: How We Sipped, Danced, and Stumbled Our Way to Civilization (Edward Slingerland)
   - Drink? (David Nutt)
   - The Science of Marijuana (Leslie L. Iversen)
@@ -103,6 +100,7 @@ These books either offered a new perspective on a topic or were just really enjo
   - Your brain on porn 🧠❌
   - Don’t eat the marshmallow yet 🧠💰
   - Thinking, Fast and Slow
+  - The basics of bitcoin and blockchains
   -->
 
 </details>
