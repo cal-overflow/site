@@ -36,6 +36,7 @@ These books either offered a new perspective on a topic or were just really enjo
 
   ### What I'm planning to read next
   - The art of talking to anyone
+  - The Sleep Prescription
   - Behold the pale horse <!-- A friend recommended this to me. Not sure what to expect -->
   - The art of not giving a f***
   - Everything is f***ed
@@ -52,6 +53,7 @@ I love coffee, but I don't know how I should feel about caffeine.
   - Drink? (David Nutt)
   - The Science of Marijuana (Leslie L. Iversen)
   - The World of Caffeine: The Science and Culture of the World's Most Popular Drug (Bennett Alan Weinberg)
+  - Noise (Daniel Kahneman, Oliver Sibony, Cas R. Sunstein) 
   - How to win friends and influence people
   - The power of habit
   - Think & Grow Rich
