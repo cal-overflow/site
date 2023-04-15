@@ -68,7 +68,7 @@ As you can see, **the cost of the serverless implementation is nearly half of th
   - 128 MB Memory (minimum)
   - 512 MB Ephemeral Storage (minimum)
 
-  For each 1 second request, the Lambda function will cost approximately $0.0000021309.
+  For each 1 second request[^1], the Lambda function will cost approximately $0.0000021309.
 
 </details>
 
@@ -112,5 +112,5 @@ Here is a video where I utilize AWS Lambda to process security footage uploaded 
 ---
 
 
-◆ Common use cases for Lambda functions take \< 1 second to complete. File processing is a rather demanding example of computation with Lambda.
+[^1]: Common use cases for Lambda functions take \< 1 second to complete. File processing is a rather demanding example of computation with Lambda.
 
