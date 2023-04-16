@@ -40,5 +40,8 @@ Click the subscribe (RSS) button at the bottom of this page to be notified whene
 
 ### Glossary
 - CDN: Content Delivery Network
+- SDK: Software Development Kit
+- JSON: JavaScript Object Notation
 - AWS: [Amazon Web Services](https://aws.amazon.com)
-- S3: [Simple Storage Service](https://aws.amazon.com/s3)
+  - S3: [Simple Storage Service](https://aws.amazon.com/s3)
+  - IaC: [Infrastructure as Code](/cloud/infrastructure-as-code)
