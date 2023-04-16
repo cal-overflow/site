@@ -36,9 +36,9 @@ These books either offered a new perspective on a topic or were just really enjo
 
   ### What I'm planning to read next
   - The Sleep Prescription
-  - Behold the pale horse <!-- A friend recommended this to me. Not sure what to expect -->
   - The art of not giving a f***
   - Everything is f***ed
+  - Behold the pale horse <!-- A friend recommended this to me. Not sure what to expect -->
   - The 7 habits of highly effective people
   - The interpretation of dreams (Sigmund Freud)
   - Bowling alone
@@ -65,6 +65,7 @@ I love coffee, but I don't know how I should feel about caffeine.
   - The price of time
   - The body keeps the score
   - Anti-fragile
+  - Beyond Good and Evil (Friedrich Nietzsche)
   - Five wealth secrets
   - Finite and Infinite games
   - *A Book covering corporations by Garret Sutton <!-- Still need to determine which book of his to read -->
