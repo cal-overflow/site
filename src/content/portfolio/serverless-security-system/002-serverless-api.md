@@ -3,7 +3,7 @@ id: 2
 title: Serverless API
 slug: serverless-api
 date: April 15, 2023
-# img: ''
+img: 'feature-images/IMG_0285.png'
 tags: 
   - Complex
   - Cloud
