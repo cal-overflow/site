@@ -3,7 +3,7 @@ title: Home
 primaryView: home-view
 secondaryView: none
 viewProperties:
-  headshotImage: 'headshot.png'
+  headshotImage: 'IMG_0293.png'
 ---
 
 

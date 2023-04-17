@@ -3,12 +3,14 @@ title: Books
 primaryView: post-feed
 secondaryView: post-view
 tags:
+  - Lifestyle
   - Self Improvement
   - Psychology
   - Economics
   - Business
   - Finance
   - Neuroscience
+  - Sleep
   - Fitness
   - Wellbeing
   - Creativity
@@ -26,9 +28,9 @@ In this section I discuss the books I've read and give my recommendations.
 
 ### Must-read books 👀
 These books either offered a new perspective on a topic or were just really enjoyable to read!
-- [The defining decade](/books/the-defining-decade)
-- [Why we sleep](/books/why-we-sleep)
-- [Thinking, Fast and slow](/books/thinking-fast-and-slow)
+- [The Defining Decade](/books/the-defining-decade) (Meg Jay)
+- [Why We Sleep](/books/why-we-sleep) (Matthew Walker)
+- [Thinking, Fast and slow](/books/thinking-fast-and-slow) (Daniel Kahneman)
 <br />
 <details>
 
@@ -74,9 +76,12 @@ I love coffee, but I don't know how I should feel about caffeine.
   - Nudge (Cass Sunstein, Richard Thaler) <!-- Referenced in "Thinking, Fast and Slow" -->
   - A history of money (Glyn Davies) <!-- Referenced in "The basics of Bitcoins and Blockchains" -->
   - Debt: The first 5,000 years (David Graeber) <!-- Referenced in "The basics of Bitcoins and Blockchains" -->
+  - Superhero (Meg Jay)
+  - The Millionaire Next Door
 
   #### Other books I may read, but are of no priority
   - The Caffeine Advantage
+  - Breath
   - Letters from a Stoic
   - 4000 weeks
 
