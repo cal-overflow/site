@@ -4,6 +4,8 @@ primaryView: home-view
 secondaryView: none
 viewProperties:
   headshotImage: 'IMG_0293.png'
+  headshot:
+    image: 'IMG_0293.png'
 ---
 
 
