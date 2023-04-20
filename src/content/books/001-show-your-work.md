@@ -27,6 +27,15 @@ The book chapters alone are captivating. I've listed them below.
 1. Sell out.
 1. Stick around.
 
+
+### Who should read this book?
+Creative individuals (which is every human being, really).
+
+**This is a must-read for:** Anyone currently pursuing a creative venture.
+
+---
+
+## Quotes
 I don't have too much to add to this. I'll just throw some quotes/headlines from the book below.
 
 > ### Become a documentarian of what you do.

@@ -14,6 +14,23 @@ tags:
   - Must-read
 ---
 
-This post is a work in progress
 
+This post is a work in progress.
+<!--Initial thoughts/reactions to the book here.-->
 <!--more-->
+
+
+### Who should read this book?
+Everyone should read this book. *Especially* individuals under 30.
+
+**This is a must-read for:** Everyone.
+
+---
+
+## Notes
+
+---
+
+## Quotes
+
+

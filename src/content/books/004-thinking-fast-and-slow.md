@@ -17,13 +17,10 @@ This book was not at all what I expected. To be frank, I thought the cover looke
 
 In essence, Daniel Kahneman dissects how Humans think. The term "think" is quite generic and encompasses various aspects of psychology like solving simple or complex problems, making decisions (big or small), and more. Additionally, Kahneman shines a unique light on current economics.
 
-### Table of Contents
-- [Notes](#notes)
-  - [Two Systems](#two-systems)
-  - [Two Species](#two-species)
-  - [Two Selves](#two-selves)
-  - [Miscellaneous](#miscellaneous)
-- [Quotes](#quotes)
+### Who should read this book?
+Everyone should read this book. Though, I would recommend other books for those not super keen on reading.
+
+**This is a must-read for:** Everyone
 
 ---
 
