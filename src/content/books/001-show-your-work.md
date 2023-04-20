@@ -11,7 +11,7 @@ tags:
 
 When I first saw this book, I was surprised by its odd shape and short page count.
 
-Although it's not like most of the books I read, *Show Your Work!* is an incredible read.
+Although it's not like most of the books I've picked up, *Show Your Work!* is an incredible read.
 
 <!--more-->
 
