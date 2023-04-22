@@ -11,6 +11,11 @@ Parameters:
     Default: cal-overflow.dev.
     Description: The hosted zone in which the domain belongs
 
+  Email:
+    Type: String
+    Description: The email address where contact requests will be sent
+    NoEcho: True
+
   CachePolicyId:
     Type: String
     Default: 658327ea-f89d-4fab-a63d-7e88639e58f6 # id for the caching optimized policy
@@ -114,6 +119,57 @@ Resources:
           AliasTarget:
             DNSName: !GetAtt CloudFrontDistribution.DomainName
             HostedZoneId: Z2FDTNDATAQYW2 # Static hosted zone id when creating alias records to cloudfront distributions.
+
+
+  # The below resources are for email integration
+  EmailS3Bucket:
+    Type: AWS::S3::Bucket
+
+  EmailS3BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref EmailS3Bucket
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Sid: SESPulEmailObjects
+            Action: [ 's3:PutObject' ]
+            Effect: Allow
+            Principal:
+              Service: ses.amazonaws.com
+            Resource: 
+              - !Sub 'arn:aws:s3:::${EmailS3Bucket}/*'
+
+  ContactEmail:
+    Type: AWS::SES::EmailIdentity
+    Properties: 
+      EmailIdentity: !Ref Email
+
+  SESEmailIdentity:
+    Type: AWS::SES::EmailIdentity
+    Properties: 
+      EmailIdentity: !Ref Domain
+
+  # This resource seems to require a manual "activation" before rules will work?
+  SESReceiptRuleSet:
+    Type: AWS::SES::ReceiptRuleSet
+    Properties: 
+      RuleSetName: !Sub '${Domain}-receiving-rule-set'
+
+  SESReceiptRule:
+    Type: AWS::SES::ReceiptRule
+    Properties: 
+      RuleSetName: !Sub '${Domain}-receiving-rule-set'
+      Rule: 
+        Name: contact-receiving-rule
+        Actions: 
+          - S3Action: 
+              BucketName: !Ref EmailS3Bucket
+              # TopicArn: String
+        Enabled: True
+        Recipients: 
+          - !Sub 'contact@${Domain}'
+
 
 Outputs:
   S3BucketName:
