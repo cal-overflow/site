@@ -8,6 +8,7 @@ tags:
   - Psychology
   - Economics
   - Business
+  - Philosophy
   - Finance
   - Neuroscience
   - Sleep
@@ -37,7 +38,6 @@ These books either offered a new perspective on a topic or were just really enjo
   <summary class="text-lg font-bold hover:underline cursor-pointer">Reading list</summary>
 
   ### What I'm planning to read next
-  - Everything is f***ed (Mark Manson)
 <!--
 I want to know more about why everyone seems to love these substances. \
 I'm not an alcoholic lol. I'm actually rather "anti-alcohol." \
@@ -53,6 +53,7 @@ I love coffee, but I don't know how I should feel about caffeine.
   - Bowling alone (Robert D. Putnam)
   - The World of Caffeine: The Science and Culture of the World's Most Popular Drug (Bennett Alan Weinberg)
   - Noise (Daniel Kahneman, Oliver Sibony, Cas R. Sunstein) 
+  - ADHD Does Not Exist: The Truth About Attention Deficit and Hyperactivity Disorder (Richard Saul)
   - How to win friends and influence people (Dale Carnegie)
   - The way of the superior man (David Deida)
   - The power of habit (Charles Duhigg)
@@ -85,34 +86,36 @@ I love coffee, but I don't know how I should feel about caffeine.
   - Five wealth secrets (Craig Hill)
   - \*A Book covering corporations by Garret Sutton <!-- Still need to determine which book of his to read -->
   - The Denial of Death (Ernest Becker)
+  - Buzzed (Cynthia Kuhn, Scott Swartzwelder, Wilkie Wilson)
 
   <!--
   ### Everything I've read
 
   I didn't get that much into reading until late 2020. Even then I was only reading a little bit. It wasn't until late 2022 that I started reading consistently (every day).
   #### 2020
-  - The nocturnal brain 🧠
+  - The nocturnal brain 🧠 (Guy Leschziner)
   #### 2021
-  - Outliers 🧠
-  - The senior software engineer 👨‍💻
+  - Outliers 🧠 (Malcom Gladwell)
+  - The senior software engineer 👨‍💻 (David Copeland)
   #### 2022
-  - How to talk to anyone 🗣️
-  - Rich dad poor dad 💰
-  - Talking to strangers 🧠
-  - The millionaire fast lane 💰
+  - How to talk to anyone 🗣️ (Leil Lowndes)
+  - Rich dad poor dad 💰 (Robert Kiyosaki)
+  - Talking to strangers 🧠 (Malcom Gladwell)
+  - The millionaire fast lane 💰 (M.J. DeMarco)
   #### 2023
   - Show your work! 🎨
-  - Atomic habits 🧠
-  - The defining decade 💰⏳👨‍👩‍👦
-  - Why we sleep 🧠😴
-  - 12 Rules for life 😊
-  - Your brain on porn 🧠❌
-  - Don’t eat the marshmallow yet 🧠💰
-  - Thinking, Fast and Slow
-  - The basics of bitcoin and blockchains
-  - The art of talking to anyone
+  - Atomic habits 🧠 (James Clear)
+  - The defining decade 💰⏳👨‍👩‍👦 (Meg Jay)
+  - Why we sleep 🧠😴 (Matthew Walker)
+  - 12 Rules for life 😊 (Jordan Peterson)
+  - Your brain on porn 🧠❌ (Gary Wilson)
+  - Don’t eat the marshmallow yet 🧠💰 (Ellen Singer)
+  - Thinking, Fast and Slow (Daniel Kahneman)
+  - The basics of bitcoin and blockchains (Antony Lewis)
+  - The art of talking to anyone (Rosalie Maggio)
   - The SLEEP Prescription (Aric A. Prather)
   - The Subtle Art of Not Giving A F*ck (Mark Manson)
+  - Everything is f***ed (Mark Manson)
   -->
 
 </details>
