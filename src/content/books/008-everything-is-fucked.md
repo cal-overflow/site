@@ -130,3 +130,5 @@ The unconditional acceptance of all life and experience: the highs and the lows,
 > The problem isn't that we don't know how *not* to get punched in the face. The problem is that, at some point, likely a long time ago, we got punched in the face, and instead of punching back, we decided we deserved it.
 
 > While pain is inevitable, suffering is always a choice... There is always a separation between what we experience and how we interpret that experience.
+
+> When you attempt to barter for happiness, you destroy happiness. When you try to enforce freedom, you negate freedom. When you try to create equality, you undermine equality.
