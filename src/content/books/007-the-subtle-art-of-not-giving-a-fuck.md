@@ -19,7 +19,7 @@ Mark Manson has a truly captivating way with words. Manson covers countless diff
 #### So... What the fuck is the book about?
 Really, the book is about what the title says; not giving a fuck. I was happily surprised to see the book cover all sorts of topics, from incredible moments in history to recent discoveries in the field of psychology.
 
-A few parts of this book gave be subtle flashbacks to [Thinking, Fast and Slow](/books/thinking-fast-and-slow), which is one of my favorite psychology books (though, Manson definitely takes a less scientific approach in his writing).
+A few parts of this book gave be subtle flashbacks to *[Thinking, Fast and Slow](/books/thinking-fast-and-slow)*, which is one of my favorite psychology books (though, Manson definitely takes a less scientific approach in his writing).
 
 ### Who should read this book?
 Everyone.

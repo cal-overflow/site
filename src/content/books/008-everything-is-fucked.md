@@ -8,20 +8,21 @@ tags:
   - Philosophy
 ---
 
-This post is a work in progress.
+Immediately after reading *[The Subtle Art of Not Giving a F\*ck](/books/the-subtle-art-of-not-giving-a-fuck)* I picked up *Everything is F\*cked*. \
+Unfortunately I must admit that this book does not hold the same *oomph* as its predecessor. However, that doesn't mean it's a bad read.
 
-<!--Initial thoughts/reactions to the book here.-->
 <!--more-->
 
-In my post for [The Subtle Art of Not Giving a F\*ck](/books/the-subtle-art-of-not-giving-a-fuck), I mentioned that I was subtly reminded of Daniel Kahneman's literature. Manson seriously surprised me in *Everything is F\*cked* when he directly quoted Kahneman's [Thinking, Fast and Slow](/books/thinking-fast-and-slow). That was a pleasant surprise.
+In my post for *[The Subtle Art of Not Giving a F\*ck](/books/the-subtle-art-of-not-giving-a-fuck)*, I mentioned that I was subtly reminded of Daniel Kahneman's literature. Manson seriously surprises me in *Everything is F\*cked* where he directly quotes Kahneman's *[Thinking, Fast and Slow](/books/thinking-fast-and-slow)*. This is a pleasant surprise.
 
 I must add that in Chapter 3, Manson talks about an "Emo Newton" character (an emotional Isaac Newton in a parallel universe). I understand what Manson is trying to do, but I find the entire chapter to be too elementary. Although, this rudimentary discussion may be perfect for naive philosophers.
 
+Altogether, the book feels like a super brief overview into various philosophical topics. The book fails to dissect of any one specific topic in detail, but that might be what Manson aims to achieve.
 
 ### Who should read this book?
-Anyone who is looking to dive in to Philosophy, but doesn't know where to start.
+Anyone who is looking to dive in to philosophy, but doesn't know where to start.
 
-**This is a must-read for:** <!--insert-->
+**This is a must-read for:** Nobody. It is a good introduction to philosophy, though.
 
 ---
 

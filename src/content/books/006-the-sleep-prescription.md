@@ -22,7 +22,7 @@ Although this book is written as a guide for those suffering from sleep problems
 
 <small>
 
-The purpose of this book isn't to teach us why we sleep. For more on that, see [Why We Sleep](/books/why-we-sleep).
+The purpose of this book isn't to teach us why we sleep. For more on that, see *[Why We Sleep](/books/why-we-sleep)*.
 </small>
 
 ### Who should read this book?
