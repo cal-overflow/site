@@ -3,7 +3,10 @@ title: Home
 primaryView: home-view
 secondaryView: none
 viewProperties:
-  headshotImage: 'headshot.png'
+  headshot:
+    image: 'IMG_0293.png'
+    styling:
+      rounding: 'full'
 ---
 
 

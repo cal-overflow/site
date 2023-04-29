@@ -1,5 +1,5 @@
 ---
-id: 0
+id: 1
 title: Show Your Work!
 slug: show-your-work
 date: January 2023
@@ -11,7 +11,7 @@ tags:
 
 When I first saw this book, I was surprised by its odd shape and short page count.
 
-Although it's not like most of the books I read, *Show Your Work!* is an incredible read.
+Although it's not like most of the books I've picked up, *Show Your Work!* is an incredible read.
 
 <!--more-->
 
@@ -27,6 +27,15 @@ The book chapters alone are captivating. I've listed them below.
 1. Sell out.
 1. Stick around.
 
+
+### Who should read this book?
+Creative individuals (which is every human being, really).
+
+**This is a must-read for:** Anyone currently pursuing a creative venture.
+
+---
+
+## Quotes
 I don't have too much to add to this. I'll just throw some quotes/headlines from the book below.
 
 > ### Become a documentarian of what you do.

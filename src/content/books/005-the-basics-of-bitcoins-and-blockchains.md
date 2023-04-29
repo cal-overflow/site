@@ -1,5 +1,5 @@
 ---
-id: 4
+id: 5
 title: The Basics of Bitcoins and Blockchains
 slug: the-basics-of-bitcoins-and-blockchains
 date: April 2023
@@ -15,9 +15,15 @@ I just wanted to learn about Bitcoin and Blockchain. Instead, I got an entire ec
 
 <!--more-->
 
-Here are my notes. I only wrote down the big-picture stuff.
+### Who should read this book?
+Anyone interested in Cryptocurrency or Blockchain technologies.
+
+**This is a must-read for:** Cryptocurrency novices
+
+---
 
 ## Notes
+Here are my notes. I only wrote down the big-picture stuff.
 
 ### Basics
 #### Blockchains
