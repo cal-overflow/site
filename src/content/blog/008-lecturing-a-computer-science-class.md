@@ -23,7 +23,7 @@ This was my experience preparing and giving a Computer Science lecture.
 
 **I am by no means a cloud expert.** As a matter of fact, I've only been learning cloud for roughly a year. However, when asked to share my knowledge with others, I didn't hesitate. <!--This is because of the serious lack of cloud courses offered at most universities. -->
 
-Most students lack fundamental knowledge of the cloud due to the lack of cloud courses. That, in addition to my passion for cloud and personal experience in 402, drove me to share my knowledge.<sup>◆</sup>
+Most students lack fundamental knowledge of the cloud due to the lack of cloud courses. That, in addition to my passion for cloud and personal experience in 402, drove me to share my knowledge[^1].
 
 With this same professor being the advisor for Cloud Club, he was well aware of my opinion towards using the cloud vs. the hardware given by ISU.
 
@@ -31,7 +31,7 @@ With this same professor being the advisor for Cloud Club, he was well aware of 
 
 The professor gave me free rein when creating the material. He only requested that I include a "hands-on" activity.
 
-Luckily, I could re-use much of the material I had already created for Cloud Club.<sup>■</sup> Instead of diving deep into a specific cloud concept, I created an overview of what I believe to be the essential cloud concepts. I determined these to be:
+Luckily, I could re-use much of the material I had already created for Cloud Club[^2]. Instead of diving deep into a specific cloud concept, I created an overview of what I believe to be the essential cloud concepts. I determined these to be:
 1. Cloud Computing
 1. Cloud Storage
     - File storage
@@ -62,5 +62,6 @@ More importantly, I think those attending walked away with a better understandin
 ---
 
 
-◆ This also happens to be the reason I started the Cloud Club \
-■ Post regarding Cloud Club coming soon
+[^1]: This also happens to be the reason I started the Cloud Club
+
+[^2]: Post regarding Cloud Club coming soon
