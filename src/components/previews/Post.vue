@@ -1,25 +1,28 @@
 <template>
-  <div v-if="post" :class="`post-preview-card ${getCardStyle}`">
+  <card v-if="post" :class="`post-preview-card ${getCardStyle}`">
     <div :class="getImageContainerStyle" style="aspect-ratio: 1 / 1;">
-      <nuxt-link ref="feature-image" :to="`${currentRoute}/${post.slug}`" :class="`w-full h-full motion-safe:animate-blur-fade-in-slow`">
-        <img :src="image" class="object-cover w-full h-full" />
+      <nuxt-link ref="feature-image" :to="targetLink" :class="`w-full h-full motion-safe:animate-blur-fade-in-slow`">
+        <img :src="image" :class="`${imageStyling}`" />
       </nuxt-link>
     </div>
 
     <div :class="getPostInfoContainerStyle">
-      <nuxt-link ref="title" :to="`${currentRoute}/${post.slug}`" class="font-bold text-lg hover:underline">
+      <nuxt-link ref="title" :to="targetLink" class="font-bold text-lg hover:underline">
         {{post.title}}
       </nuxt-link>
+      <div class="text-xs text-extra-gray-dark dark:text-extra-gray-light">
+        {{post.date}}
+      </div>
       <div :class="showMinimalContent ? 'hidden md:block' : ''">
-        <nuxt-content ref="excerpt" :document="excerpt" :editable="false" :class="`prose leading-snug prose-a:text-inherit prose-a:no-underline dark:prose-invert transition ${showMinimalContent ? 'minimal-preview-text' : ''}`" />
-        <nuxt-link ref="continue-reading" :to="`${currentRoute}/${post.slug}`" :class="`text-extra-gray-dark dark:text-extra-gray-light font-thin text-sm underline hover:no-underline transition ${showMinimalContent ? 'hidden md:block': ''}`">
-          Continue reading
+        <nuxt-content ref="excerpt" :document="excerpt" :editable="false" :class="`prose leading-snug prose-a:text-inherit prose-a:no-underline dark:prose-invert transition pointer-events-none prose-code:before:content-none prose-code:after:content-none ${showMinimalContent ? 'minimal-preview-text' : ''}`" />
+        <nuxt-link ref="continue-reading" :to="targetLink" :class="`text-extra-gray-dark dark:text-extra-gray-light font-thin text-sm underline hover:no-underline transition ${showMinimalContent ? 'hidden md:block': ''}`">
+          {{post.isNestedSection ? 'View posts' : 'Continue reading' }}
         </nuxt-link>
       </div>
     </div>
-  </div>
+  </card>
 
-  <div v-else ref="lazy-load-post-preview" :class="`post-preview-card ${getCardStyle}`">
+  <card v-else ref="lazy-load-post-preview" :class="`post-preview-card ${getCardStyle}`">
     <div :class="getImageContainerStyle" style="aspect-ratio: 1 / 1;">
       <div class="bg-gray-500 object-cover w-full h-full" />
     </div>
@@ -31,12 +34,17 @@
       <div class="bg-gray-400 w-48 h-3 mb-2"/>
       <div class="bg-gray-300 w-24 h-3" />
     </div>
-  </div>
+  </card>
 </template>
 
 <script>
+import Card from '@/components/cards/Card.vue';
+
 export default {
   name: 'post-preview',
+  components: {
+    Card,
+  },
   props: {
     post: {
       type: Object,
@@ -59,14 +67,21 @@ export default {
       type: Boolean,
       default: false
     },
+    sectionMetadata: {
+      type: Object,
+      required: true
+    },
     classes: {
       type: String,
       default: ''
     }
   },
   computed: {
-    currentRoute() {
-      return this.$route.fullPath;
+    targetLink() {
+      if (this.post.isNestedSection) {
+        return `${this.post.dir}`;
+      }
+      return `${this.post.dir}/${this.post.slug}`;
     },
     excerpt() {
       return {
@@ -74,7 +89,7 @@ export default {
       };
     },
     getCardStyle() {
-      let style = `bg-card-light dark:bg-card-dark m-6 p-6 hover:rounded shadow-md dark:shadow-shadow-dark hover:shadow-none motion-safe:animate-fade-in transition ${this.classes}`;
+      let style = `${this.classes}`;
 
       if (!this.post)
         style += ' motion-safe:animate-pulse';
@@ -85,7 +100,7 @@ export default {
       if (this.fullWidth) {
         style += ' md:col-span-2 md:flex';
       }  else {
-        style += ' md:col-span-1';
+        style += ' md:col-span-1 md:flex-col';
       }
 
       return style;
@@ -98,11 +113,52 @@ export default {
       return `mt-2 ${this.fullWidth ? 'md:w-3/5 md:m-4' : ''}`;
     },
     image() {
-      if (this.post.img.includes('http://') || this.post.img.includes('https://')) {
+      // Loads the feature image for a post. If the post doesn't have an image, uses a placeholder.
+      if (this.post.img?.includes('http://') || this.post.img?.includes('https://')) {
         return this.post.img;
       }
-      else return require(`~/content/${this.dir}/${this.post.img}`);
-    }
+      let img;
+
+      // Try loading the image from the same path in `src/content`
+      try {
+        const currentPathFormatted = this.$route.path.replace(/^\/|\/$/g, '');
+        img = require(`~/content/${currentPathFormatted}/${this.post.img}`);
+      }
+      catch {};
+
+      if (img) return img;
+
+
+      // Use a placeholder image
+      try {
+        img = require('~/content/placeholder.png');
+      }
+      catch {
+        img = 'https://cal-overflow.dev/misc/placeholder.png';
+      }
+
+      return img;
+    },
+    imageStyling() {
+      const classes = 'w-full h-full';
+      
+      // default values
+      let objectFit = 'cover';
+      let rounding = 'none';
+
+      const imageStyling = this.sectionMetadata?.viewProperties?.imageStyling;
+      
+      if (imageStyling) {
+        if (imageStyling.objectFit) {
+          objectFit = imageStyling.objectFit;
+        }
+        if (imageStyling.rounding) {
+          rounding = imageStyling.rounding;
+        }
+      }
+
+      return `${classes} object-${objectFit} rounded-${rounding}`;
+    },
   }
 };
 </script>

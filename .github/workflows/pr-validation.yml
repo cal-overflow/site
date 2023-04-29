@@ -4,7 +4,6 @@ on:
   pull_request:
     branches:
       - main
-      - master
 
 permissions:
   id-token: write
@@ -15,7 +14,7 @@ env:
   STACK_NAME: cal-overflow-dev-pr-${{ github.event.number }}
   REGION: us-east-1
   NUXT_ENV_SITE_URL: https://cal-overflow.dev # This value does not matter here
-  NUXT_ENV_FULL_NAME: "cal ('Pull Request #${{ github.event.number }}')"
+  NUXT_ENV_FULL_NAME: 'Deploy preview - PR #${{ github.event.number }}'
   NUXT_ENV_EMAIL_ADDRESS: cal-overflow@users.noreply.github.com
   STACK_TEMPLATE_FILE: template/pr.stack.yml
 

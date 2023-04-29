@@ -1,20 +1,20 @@
 <template>
   <div class="max-w-screen-lg mx-auto">
-    <div v-if="post" id="post-card" class="bg-card-light dark:bg-card-dark m-0 md:m-6 p-4 flex flex-wrap shadow-lg dark:shadow-shadow-dark hover:shadow-none hover:rounded motion-safe:animate-fade-in transition">
+    <card id="post-card" class="m-0 md:m-6 p-4 flex flex-wrap">
       <div class="w-full p-4">
         <div v-if="!isEditing">
-          <p id="post-title" class="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 !leading-tight">{{ post.title }}</p>
+          <p id="post-title" class="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 !leading-tight">{{ content.title }}</p>
 
           <div class="text-extra-gray-dark dark:text-extra-gray-light transition">
-            <p id="post-metadata">{{ post.date }}
-              <span v-if="post.tags.length">
+            <p id="post-metadata">{{ content.date }}
+              <span v-if="content.tags.length">
                 <span class="hidden md:inline">/</span>
                 <br class="md:hidden" />
                 <span 
-                  v-for="(tag, i) in post.tags" 
+                  v-for="(tag, i) in content.tags" 
                   :key="`tags-${tag}`"
                 >
-                  <nuxt-link :to="`/tags/${tag.toLowerCase().replace(' ', '-')}`" class="hover:underline">{{ tag }}</nuxt-link>{{ (i + 1) === post.tags.length ? '' : ', ' }}
+                  <nuxt-link :to="`/${dir}?tag_filter=${encodeURIComponent(tag)}`" class="hover:underline">{{ tag }}</nuxt-link>{{ (i + 1) === content.tags.length ? '' : ', ' }}
                 </span>
               </span>
             </p>
@@ -22,7 +22,7 @@
         </div>
 
         <div v-if="!isEditing">
-          <img id="post-feature-image" :src="image" class="object-contain w-full md:w-3/4 3xl:w-3/4 mx-auto lg:mx-auto max-h-screen" />
+          <img id="post-feature-image" :src="image" :class="featureImageStyling" />
 
           <div v-if="isDevMode">
             <divider />
@@ -36,69 +36,126 @@
         </div>
         <nuxt-content 
           id="post-content" 
-          :document="post" 
-          class="prose m-4 mx-auto max-w-none prose-img:w-max prose-img:max-h-[100vh] prose-img:mx-auto prose-a:underline hover:prose-a:no-underline prose-a:text-primary-light dark:prose-invert dark:prose-a:text-primary-dark transition"
+          :document="content" 
+          class="prose m-4 mx-auto max-w-none prose-img:w-max prose-img:max-h-[100vh] prose-img:mx-auto prose-a:underline hover:prose-a:no-underline prose-a:text-primary-light dark:prose-invert dark:prose-a:text-primary-dark transition prose-code:before:content-none prose-code:after:content-none"
           @startEdit="isEditing = true" 
           @endEdit="isEditing = false" 
         />
       </div>
-    </div>
-
-    <div v-else class="max-w-screen-lg mx-auto flex bg-card-light dark:bg-card-dark m-6 p-4 px-6 flex-wrap shadow-lg hover:shadow-none hover:rounded animate-pulse transition">
-      <div class="w-full p-4">
-        <div class="bg-white w-80 lg:w-96 h-16 mb-2" />
-        <div class="bg-gray-300 w-60 h-4 mb-1" />
-
-        <div class="bg-gray-500 w-full md:w-3/4 lg:w-8/12 mx-auto lg:mx-auto h-96 max-h-screen" />
-        <div v-for="i in 20" :key="i" class="bg-gray-400 w-full h-3 my-2" />
-        <div class="bg-gray-400 w-60 h-3 mb-2" />
-
+    </card>
+    <card id="post-interaction-card" class="m-0 md:m-6 p-4 flex flex-wrap">
+      <div class="w-full flex justify-between">
+        <nuxt-link :to="`/${dir}`">
+          <button
+            class="p-2 hover:bg-extra-gray-light dark:hover:bg-extra-gray-dark rounded-sm transition duration-250">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+            </svg>
+            All posts
+          </button>
+        </nuxt-link>
+        <button
+          @mouseup="sharePost"
+          :disabled="isPostUrlCopied"
+          class="p-2 hover:bg-extra-gray-light dark:hover:bg-extra-gray-dark rounded-sm transition duration-250">
+          {{ isPostUrlCopied ? 'URL Copied' : 'Share' }}
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5" />
+          </svg>
+        </button>
       </div>
-    </div>
+    </card>
   </div>
 </template>
 
 <script>
-import Divider from '@/components/helpers/Divider.vue';
+import Card from '@/components/cards/Card.vue';
+import Divider from '@/components/misc/Divider.vue';
 
 export default {
   name: 'post-view',
   components: {
-    Divider
+    Card,
+    Divider,
   },
   props: {
     dir: {
       type: String,
       required: true
-    }
+    },
+    content: {
+      default: undefined,
+      type: Object,
+      required: true,
+    },
   },
   data: () => ({
-    post: undefined,
     isEditing: false,
-    isDevMode: process.env.NODE_ENV === 'development'
+    isDevMode: process.env.NODE_ENV === 'development',
+    isPostUrlCopied: false,
   }),
-  async fetch() {
-    const currentRoute = this.$route.fullPath;
-    const lastIndex = currentRoute.lastIndexOf('/');
-    const directory = currentRoute.slice(0, lastIndex).substring(1);
-    const slug = currentRoute.slice(lastIndex + 1);
-
-    const posts = await this.$content(directory)
-      .search('slug', slug)
-      .fetch();
-
-    this.post = posts?.find((post) => post.slug === slug);
-    this.isEditing = false;
-    this.isDevMode = process.env.NODE_ENV === 'development';
-  },
   computed: {
     image() {
-      if (!this.post) return undefined;
-      if (this.post.img.includes('http://') || this.post.img.includes('https://')) {
-        return this.post.img;
+      const fallbackPlaceholder = 'https://cal-overflow.dev/misc/placeholder.png';
+
+      if (!this.content) {
+        return fallbackPlaceholder;
       }
-      else return require(`~/content/${this.dir}/${this.post.img}`);
+
+      // Loads the feature image for a post. If the post doesn't have an image, uses a placeholder.
+      if (this.content.img?.includes('http://') || this.content.img?.includes('https://')) {
+        return this.content.img;
+      }
+      let img;
+
+      try {
+        img = require(`~/content/${this.dir}/${this.content.img}`);
+      }
+      catch {};
+
+      if (img) return img;
+
+
+      // Use a placeholder image
+      try {
+        img = require('~/content/placeholder.png');
+      }
+      catch {
+        img = fallbackPlaceholder;
+      }
+
+      return img;
+    },
+    featureImageStyling() {
+      const classes = 'w-full md:w-3/4 3xl:w-3/4 mx-auto lg:mx-auto max-h-screen';
+      
+      // default values
+      let objectFit = 'contain';
+      let rounding = 'none';
+
+      const featureImageStyling = this.content.viewProperties?.featureImageStyling;
+
+      if (featureImageStyling) {
+        if (featureImageStyling.objectFit) {
+          objectFit = featureImageStyling.objectFit;
+        }
+        if (featureImageStyling.rounding) {
+          rounding = featureImageStyling.rounding;
+        }
+      }
+
+      return `${classes} object-${objectFit} rounded-${rounding}`;
     }
+  },
+  methods: {
+    sharePost() {
+      navigator.clipboard.writeText(window.location.href);
+      this.isPostUrlCopied = true;
+
+      setTimeout(() => {
+        this.isPostUrlCopied = false;
+      }, 10000);
+    },
   }
 };
 </script>

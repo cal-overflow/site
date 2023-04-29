@@ -5,8 +5,9 @@ slug: cyrun
 date: November 30, 2020
 img: 'feature-images/cyrun.png'
 tags:
-  - Frontend
-  - Pac-Man
+  - Website
+  - Simple
+  - Game
 ---
 
 CyRun is a multiplayer web-based game extremely similar to Pac-Man. Users can either play solo or with their friends. There will always be four players, where any remaining players will be CPUs. The game assigns three of the players as ghosts and one Pac-Man.
