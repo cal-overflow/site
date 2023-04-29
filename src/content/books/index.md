@@ -5,7 +5,9 @@ secondaryView: post-view
 tags:
   - Lifestyle
   - Self Improvement
+  - Sociology
   - Psychology
+  - Anthropology
   - Economics
   - Business
   - Philosophy
@@ -20,6 +22,7 @@ tags:
   - History
   - Technology
   - Must-read
+  - Pharmacology
 ---
 
 Welcome to my book section! \
@@ -47,13 +50,18 @@ I love coffee, but I don't know how I should feel about caffeine.
   - Drunk: How We Sipped, Danced, and Stumbled Our Way to Civilization (Edward Slingerland)
   - Drink? (David Nutt)
   - The Science of Marijuana (Leslie L. Iversen)
-  - Behold the pale horse (Milton William Cooper) <!-- A friend recommended this to me. Not sure what to expect -->
+  - Alcohol: The World’s Favorite Drug (Griffith Edwards)
   - The 7 habits of highly effective people (Stephen Covey)
   - The interpretation of dreams (Sigmund Freud)
   - Bowling alone (Robert D. Putnam)
+  <!--Doing research for a new project. Need to know everything about markdown (and ideally how to teach it to non-devs) -->
+  - The Markdown Guide (Matt Cone)
+  - Learn Markdown: The Complete Guide on Markdown Formatting (Khurshid Alam)
+  - Using Markdown: A Short Instruction Guide (William Dyer)
   - The World of Caffeine: The Science and Culture of the World's Most Popular Drug (Bennett Alan Weinberg)
   - Noise (Daniel Kahneman, Oliver Sibony, Cas R. Sunstein) 
   - ADHD Does Not Exist: The Truth About Attention Deficit and Hyperactivity Disorder (Richard Saul)
+  - The Death and Life of the Great American School System (Diane Ravitch)
   - How to win friends and influence people (Dale Carnegie)
   - The way of the superior man (David Deida)
   - The power of habit (Charles Duhigg)
@@ -78,6 +86,7 @@ I love coffee, but I don't know how I should feel about caffeine.
   - The Love Prescription (John Gottman and Julie Schwartz)
 
   #### Other books I may read, but are of no priority
+  - Behold the pale horse (Milton William Cooper) <!-- A friend recommended this to me. Not sure what to expect -->
   - The Caffeine Advantage (Bennett Alan Weinberg and Bonnie K. Bealer)
   - Breath (James Nestor)
   - Letters from a Stoic (Lucius Annaeus Seneca)
@@ -87,6 +96,17 @@ I love coffee, but I don't know how I should feel about caffeine.
   - \*A Book covering corporations by Garret Sutton <!-- Still need to determine which book of his to read -->
   - The Denial of Death (Ernest Becker)
   - Buzzed (Cynthia Kuhn, Scott Swartzwelder, Wilkie Wilson)
+  - The Art of War (Sun Tzu)
+
+  #### Genres/topics I want to read
+  - Religions (More about the history of various religions and their importance in societies)
+  - History
+    - World wars
+  - Finances 
+      - More about the stock market
+      - More about investments
+      - More about taxes
+      - More about business expenses
 
   <!--
   ### Everything I've read
@@ -116,18 +136,8 @@ I love coffee, but I don't know how I should feel about caffeine.
   - The SLEEP Prescription (Aric A. Prather)
   - The Subtle Art of Not Giving A F*ck (Mark Manson)
   - Everything is f***ed (Mark Manson)
+  - Drunk: How We Sipped, Danced, and Stumbled Our Way to Civilization (Edward Slingerland)
   -->
 
 </details>
-
-<!--
-#### Genres to read more
-- History
-- Finances 
-    - More about the stock market
-        - Different kinds of stocks
-    - More about investments
-    - More about taxes
-    - More about business expenses
--->
 
