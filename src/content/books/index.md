@@ -35,6 +35,7 @@ These books either offered a new perspective on a topic or were just really enjo
 - [The Defining Decade](/books/the-defining-decade) (Meg Jay)
 - [Why We Sleep](/books/why-we-sleep) (Matthew Walker)
 - [Thinking, Fast and slow](/books/thinking-fast-and-slow) (Daniel Kahneman)
+- [Drink?](/books/drink)
 <br />
 <details>
 
@@ -47,10 +48,9 @@ I'm not an alcoholic lol. I'm actually rather "anti-alcohol." \
 I'm unsure where I stand regarding Marijuana use. \
 I love coffee, but I don't know how I should feel about caffeine.
 -->
-  - Drunk: How We Sipped, Danced, and Stumbled Our Way to Civilization (Edward Slingerland)
-  - Drink? (David Nutt)
-  - The Science of Marijuana (Leslie L. Iversen)
+  - The Bible
   - Alcohol: The World’s Favorite Drug (Griffith Edwards)
+  - The Science of Marijuana (Leslie L. Iversen)
   - The 7 habits of highly effective people (Stephen Covey)
   - The interpretation of dreams (Sigmund Freud)
   - Bowling alone (Robert D. Putnam)
@@ -137,6 +137,7 @@ I love coffee, but I don't know how I should feel about caffeine.
   - The Subtle Art of Not Giving A F*ck (Mark Manson)
   - Everything is f***ed (Mark Manson)
   - Drunk: How We Sipped, Danced, and Stumbled Our Way to Civilization (Edward Slingerland)
+  - Drink? (David Nutt)
   -->
 
 </details>
