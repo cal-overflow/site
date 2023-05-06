@@ -7,6 +7,7 @@ img: feature-images/stack-of-books.png
 tags:
   - University Course
   - AWS
+  - Public Speaking
 ---
 
 If you read my [previous post](/blog/com-s-402), you'll know I didn't necessarily have the greatest experience in COM S 402. This was mostly because of the hardware limitations imposed upon my development team. More specifically, we couldn't host our application in the cloud.

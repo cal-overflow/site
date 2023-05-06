@@ -35,7 +35,6 @@ These books either offered a new perspective on a topic or were just really enjo
 - [The Defining Decade](/books/the-defining-decade) (Meg Jay)
 - [Why We Sleep](/books/why-we-sleep) (Matthew Walker)
 - [Thinking, Fast and slow](/books/thinking-fast-and-slow) (Daniel Kahneman)
-- [Drink?](/books/drink)
 <br />
 <details>
 
@@ -84,6 +83,8 @@ I love coffee, but I don't know how I should feel about caffeine.
   - The Millionaire Next Door (Thomas J. Stanley)
   - The Stress Prescription (Elissa Epel)
   - The Love Prescription (John Gottman and Julie Schwartz)
+  - Bronze Age Mindset Review
+
 
   #### Other books I may read, but are of no priority
   - Behold the pale horse (Milton William Cooper) <!-- A friend recommended this to me. Not sure what to expect -->
