@@ -58,22 +58,31 @@ See an example of filter selection on the footage screen:
 
 
 #### Goal 3: Pleasant UI/UX
-The last primary goal was to make the user-experience as pleasant as possible. Now, this goal introduced the most challenge, since I don't have a strong background in UI/UX. After many iterations, I think the user-experience is an improvement to my previous work.
+The last primary goal was to make the user-experience as pleasant as possible. Now, this goal introduced the most challenge, since I don't have a strong background in UI/UX. After many iterations, I think the user-experience is relatively straight-forward and doesn't require much thinking to navigate.
 
 ## A simple, but tedious development process
 ### Simple
-For starters, I'm well-experienced in the world of web development. I've built my fair share of both dynamic/static websites using modern frameworks.
+I'm well-experienced in the world of web development. I've built my fair share of both dynamic/static websites using modern frameworks. Thus, the development process was incredibly simple. I leveraged NuxtJS to build a static Vue website.
+
+The website makes API calls to the system's [serverless API](/portfolio/serverless-security-system/serverless-api). The data returned from the API is formatted and presented in a way that is easy to interpret and navigate.
 
 ### Tedious
 Building a good web-application, that's highly-responsive and well-designed, takes time. Especially when you don't have a strong UI/UX background.
 
+The reason I consider this tedious is because I completed multiple iterations of screens before settling on the one that stuck. Since I'm not a designer, I don't have the amazing ability to draw up a wireframe and know everything right/wrong with it. Instead, I need to actually interact with a prototype, and feel out the strengths and weaknesses. \
+Additionally, with each prototype, I received feedback from other users such as what icons were confusing or lead them to frustration.
 
-#### Goals for the system interface:
-- looks good on mobile
-  - Talk about how you wanted this to feel like a mobile app, even just in the mobile browser
-- Light/dark mode
-- 
+Although the process was time-consuming, it resulted in--what I consider--a pleasant user experience.
+
+See the interface being used for core system functionality in this short video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UZtTwt5HImQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="youtube-embed"></iframe>
+
 
 ---
+
+### Want more?
+You can check out the code for the frontend [here](https://github.com/cal-overflow/serverless-security-system/tree/main/cloud/ui). \
+Unfortunately, you'll need to deploy an entire copy of the system (including the [serverless API](/portfolio/serverless-security-system/serverless-api)) yourself if you'd like to view the frontend in all its glory. See the [repository README.md](https://github.com/cal-overflow/serverless-security-system/blob/main/README.md) for instructions on deploying the system.
 
 [^1]: I may make another post discussing this further. This is a pretty controversial take, but I think I have quite good reasoning (and the experience to back it up).
