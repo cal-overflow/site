@@ -49,7 +49,6 @@ I love coffee, but I don't know how I should feel about caffeine.
 -->
   - The Bible
   - Alcohol: The World’s Favorite Drug (Griffith Edwards)
-  - The Science of Marijuana (Leslie L. Iversen)
   - The 7 habits of highly effective people (Stephen Covey)
   - The interpretation of dreams (Sigmund Freud)
   - Bowling alone (Robert D. Putnam)
@@ -81,7 +80,6 @@ I love coffee, but I don't know how I should feel about caffeine.
   - Debt: The first 5,000 years (David Graeber) <!-- Referenced in "The basics of Bitcoins and Blockchains" -->
   - Superhero (Meg Jay)
   - The Millionaire Next Door (Thomas J. Stanley)
-  - The Stress Prescription (Elissa Epel)
   - The Love Prescription (John Gottman and Julie Schwartz)
   - Bronze Age Mindset Review
 
@@ -139,6 +137,8 @@ I love coffee, but I don't know how I should feel about caffeine.
   - Everything is f***ed (Mark Manson)
   - Drunk: How We Sipped, Danced, and Stumbled Our Way to Civilization (Edward Slingerland)
   - Drink? (David Nutt)
+  - The Science of Marijuana (Leslie L. Iversen)
+  - The Stress Prescription (Elissa Epel)
   -->
 
 </details>
