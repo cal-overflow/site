@@ -14,10 +14,4 @@ I've split this section into subsections:
 - [Singles](/music/singles)
 - [Discussion](/music/discussion)
 
-<small>
-
-The albums section is by far the most complete and worthwhile!
-</small>
-
-
 
