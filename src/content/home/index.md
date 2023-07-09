@@ -7,6 +7,9 @@ viewProperties:
     image: 'IMG_0293.png'
     styling:
       rounding: 'full'
+  githubPreview:
+    user: 'cal-overflow'
+    description: "GitHub is my collaboration platform of choice. I'm quite active there. Browse my public repositories below."
 ---
 
 
