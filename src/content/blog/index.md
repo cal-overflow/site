@@ -10,5 +10,7 @@ tags:
   - 'Hackathon'
   - 'AWS'
   - 'Public Speaking'
+  - 'Offline'
+  - 'Hardware'
 ---
 

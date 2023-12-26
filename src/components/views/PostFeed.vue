@@ -186,7 +186,7 @@ export default {
     sortedPosts: [],
     filteredPosts: [],
     page: 1,
-    postCount: 10,
+    postCount: Infinity, // TODO - come back to this
     isMorePosts: false,
     isShowingFilter: false,
     sortingStrategies: [

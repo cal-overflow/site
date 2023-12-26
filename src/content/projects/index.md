@@ -24,6 +24,7 @@ See the completed projects in my [portfolio](/portfolio).
 - 😊 [Homework automation](/projects/automating-homework)
 
 ## Future projects
+- 😭 [Markdown parser](/projects/homemade-markdown-parser)
 - 🥱 [Custom Resource for AWS-hosted websites](/projects/aws-website-custom-resource)
 - 🥱 Way to view all images/videos in my (private) camera S3 bucket
 - 🤓 [Conversation transcriber](/projects/transcriber)

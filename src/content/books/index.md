@@ -52,10 +52,6 @@ I love coffee, but I don't know how I should feel about caffeine.
   - The 7 habits of highly effective people (Stephen Covey)
   - The interpretation of dreams (Sigmund Freud)
   - Bowling alone (Robert D. Putnam)
-  <!--Doing research for a new project. Need to know everything about markdown (and ideally how to teach it to non-devs) -->
-  - The Markdown Guide (Matt Cone)
-  - Learn Markdown: The Complete Guide on Markdown Formatting (Khurshid Alam)
-  - Using Markdown: A Short Instruction Guide (William Dyer)
   - The World of Caffeine: The Science and Culture of the World's Most Popular Drug (Bennett Alan Weinberg)
   - Noise (Daniel Kahneman, Oliver Sibony, Cas R. Sunstein) 
   - ADHD Does Not Exist: The Truth About Attention Deficit and Hyperactivity Disorder (Richard Saul)
@@ -81,7 +77,12 @@ I love coffee, but I don't know how I should feel about caffeine.
   - Superhero (Meg Jay)
   - The Millionaire Next Door (Thomas J. Stanley)
   - The Love Prescription (John Gottman and Julie Schwartz)
-  - Bronze Age Mindset Review
+  - Bronze Age Mindset
+  - Talent is Overrated (Geoffrey Colvin)
+  - A Philosophy of Software Design (John Ousterhout)
+  - 1984 (George Orwell)
+  - All Quiet on the Western Front (Erich Maria Remarque)
+  - Yoga and the Quest for the True Self (Stephen Cope)
 
 
   #### Other books I may read, but are of no priority
