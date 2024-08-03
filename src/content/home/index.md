@@ -4,7 +4,7 @@ primaryView: home-view
 secondaryView: none
 viewProperties:
   headshot:
-    image: 'IMG_0293.png'
+    image: 'IMG_0390.png'
     styling:
       rounding: 'full'
   githubPreview:
