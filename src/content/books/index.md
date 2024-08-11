@@ -41,20 +41,23 @@ These books either offered a new perspective on a topic or were just really enjo
   <summary class="text-lg font-bold hover:underline cursor-pointer">Reading list</summary>
 
   ### What I'm planning to read next
-<!--
-I want to know more about why everyone seems to love these substances. \
-I'm not an alcoholic lol. I'm actually rather "anti-alcohol." \
-I'm unsure where I stand regarding Marijuana use. \
-I love coffee, but I don't know how I should feel about caffeine.
--->
-  - The Bible
+  - ADHD Does Not Exist: The Truth About Attention Deficit and Hyperactivity Disorder (Richard Saul)
+  - Present Shock (Douglas Rushkoff)
+  - Breath (James Nestor)
+  - Deepfakes: The Coming Infocalypse (Nina Schick)
+  - The death and life of great American cities (Jane Jacobs)
+  - In this economy? (Kyla Scanlon)
+  - Taking Stock (Jordan Grumet)
+  - why has nobody told me this (Julie smith)
+  - Vanderbilt: The Rise and Fall of an American (Anderson Cooper & Katherine Howe)
+  - Die with zero (Bill Perkins)
+  - What doesn't kill us makes us (Mike Mariani)
   - Alcohol: The World’s Favorite Drug (Griffith Edwards)
   - The 7 habits of highly effective people (Stephen Covey)
   - The interpretation of dreams (Sigmund Freud)
   - Bowling alone (Robert D. Putnam)
   - The World of Caffeine: The Science and Culture of the World's Most Popular Drug (Bennett Alan Weinberg)
   - Noise (Daniel Kahneman, Oliver Sibony, Cas R. Sunstein) 
-  - ADHD Does Not Exist: The Truth About Attention Deficit and Hyperactivity Disorder (Richard Saul)
   - The Death and Life of the Great American School System (Diane Ravitch)
   - How to win friends and influence people (Dale Carnegie)
   - The way of the superior man (David Deida)
@@ -64,8 +67,8 @@ I love coffee, but I don't know how I should feel about caffeine.
   - The compound effect (Darren Hardy)
   - The shallows: what the internet is doing to our brains (Nicholas G. Carr)
   - Deep work (Cal Newport)
+  - The Bible
   - The price of time (Edward Chancellor)
-  - The body keeps the score (Bessel van der Kolk)
   - Anti-fragile (Nassim Nicholas Taleb)
   - Beyond Good and Evil (Friedrich Nietzsche)
   - Finite and Infinite games
@@ -140,6 +143,10 @@ I love coffee, but I don't know how I should feel about caffeine.
   - Drink? (David Nutt)
   - The Science of Marijuana (Leslie L. Iversen)
   - The Stress Prescription (Elissa Epel)
+  - The body keeps the score (Bessel van der Kolk)
+  #### 2024
+  - The Psychology of Money (Morgan Housel)
+  - Ikigai (Héctor García and Francesc Miralles)
   -->
 
 </details>
