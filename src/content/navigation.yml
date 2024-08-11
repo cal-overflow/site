@@ -13,8 +13,6 @@ footer:
       href: '/contact'
     - title: '📚'
       href: '/books'
-    - title: '🎧'
-      href: '/music'
   imageNavItems:
     youtubeUrl: 'https://www.youtube.com/@cal-overflow'
     githubUrl: 'https://github.com/cal-overflow'
