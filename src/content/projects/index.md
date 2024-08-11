@@ -16,7 +16,8 @@ See the completed projects in my [portfolio](/portfolio).
 
 
 ## Work In Progress
-- 🫠 The podium/stand/coliseum
+- 🤓 [Productivity site blocker](/projects/hacking-productivity)
+
 
 ### On hold
 - 😭 [Serverless Security System](/portfolio/serverless-security-system)
@@ -28,7 +29,6 @@ See the completed projects in my [portfolio](/portfolio).
 - 🥱 [Custom Resource for AWS-hosted websites](/projects/aws-website-custom-resource)
 - 🥱 Way to view all images/videos in my (private) camera S3 bucket
 - 🤓 [Conversation transcriber](/projects/transcriber)
-- 🤓 [Productivity site blocker](/projects/hacking-productivity)
 - 🫠 [In-Browser Minecraft clone](/projects/minecraft-clone)
 
 ---

@@ -1,16 +1,14 @@
 navbar:
-  signatureNavItem: 
+  signatureNavItem:
     title: 'cal'
     href: '/'
-  navItems: 
+  navItems:
     - title: 'Portfolio'
       href: '/portfolio'
-    - title: 'Cloud'
-      href: '/cloud'
     - title: 'Blog'
       href: '/blog'
 footer:
-  navItems: 
+  navItems:
     - title: 'Contact Me'
       href: '/contact'
     - title: '📚'

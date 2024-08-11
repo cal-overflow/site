@@ -1,5 +1,8 @@
 ---
+id: 7
 title: Cloud ☁️
+date: 'Early 2023'
+img: 'feature-images/IMG_0225.png'
 primaryView: post-feed
 secondaryView: post-view
 tags: 
