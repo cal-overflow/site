@@ -57,7 +57,7 @@ So, I refactored the project into a "template" website. I decided to share my wo
 You see, the way I achieved converting Markdown into beautiful HTML (like the post you're reading now) was with the [Nuxt Content](https://content.nuxtjs.org) module. In essence, this module converts Markdown files into HTML. Once converted, I reference the content within my Nuxt templates with some [JavaScript magic](https://github.com/nuxt/content/blob/main/docs/content-v1/en/1.getting-started/4.fetching.md) ✨.
 
 ### Revival
-That basic markdown-supported blog is about where the website stopped. That is until mid-2022 when my friend [Michael](https://www.mamoore1440.com) forked the template. He almost immediately noticed the entire website structure depended on the Nuxt (JavaScript) code. 
+That basic markdown-supported blog is about where the website stopped. That is until mid-2022 when my friend Michael forked the template. He almost immediately noticed the entire website structure depended on the Nuxt (JavaScript) code. 
 
 The template was originally structured as a "portfolio" website. Originally, there were four pages defined:
 - Home (index)
