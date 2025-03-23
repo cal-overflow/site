@@ -53,6 +53,7 @@ These books either offered a new perspective on a topic or were just really enjo
   - Bullshit jobs (David Graeber)
   - The Utopia of Rules (David Graeber)
   - Debt: The first 5,000 years (David Graeber)
+  - Careless people (Sarah Wynn Williams)
   - Technofeudalism (Varoufakis, Yanis)
   - Deepfakes: The Coming Infocalypse (Nina Schick)
   - Free to Choose (Milton Friedman and Rose Friedman)
