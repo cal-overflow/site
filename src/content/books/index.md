@@ -41,94 +41,106 @@ These books either offered a new perspective on a topic or were just really enjo
   <summary class="text-lg font-bold hover:underline cursor-pointer">Reading list</summary>
 
   ### What I'm planning to read next 
-  <details>
-    <summary>HIGHEST PRIORITY</summary>
-    - The communism manifesto (Karl Marx)
-    - ADHD Does Not Exist: The Truth About Attention Deficit and Hyperactivity Disorder (Richard Saul)
-    - Beyond Good and Evil (Friedrich Nietzsche)
-    - Present Shock (Douglas Rushkoff)
-    - Breath (James Nestor)
-    - Bullshit jobs (David Graeber)
-    - The Utopia of Rules (David Graeber)
-    - Debt: The first 5,000 years (David Graeber)
-    - Technofeudalism (Varoufakis, Yanis)
-    - Deepfakes: The Coming Infocalypse (Nina Schick)
-    - Free to Choose (Milton Friedman and Rose Friedman)
-    - Behold the pale horse (Milton William Cooper) <!-- A friend recommended this to me. Not sure what to expect -->
-    - Silent Spring (Rachel Carson)
-    - Handmaid's tale (Margaret Atwood)
+  
+  <details open>
+  <summary>Highest priority</summary>
+
+  - The communism manifesto (Karl Marx)
+  - ADHD Does Not Exist: The Truth About Attention Deficit and Hyperactivity Disorder (Richard Saul)
+  - Beyond Good and Evil (Friedrich Nietzsche)
+  - Present Shock (Douglas Rushkoff)
+  - Breath (James Nestor)
+  - Bullshit jobs (David Graeber)
+  - The Utopia of Rules (David Graeber)
+  - Debt: The first 5,000 years (David Graeber)
+  - Careless people (Sarah Wynn Williams)
+  - Technofeudalism (Varoufakis, Yanis)
+  - Deepfakes: The Coming Infocalypse (Nina Schick)
+  - Free to Choose (Milton Friedman and Rose Friedman)
+  - Behold the pale horse (Milton William Cooper) <!-- A friend recommended this to me. Not sure what to expect -->
+  - Silent Spring (Rachel Carson)
+  - Handmaid's tale (Margaret Atwood)
+  - The source of self-regard (Toni Morrison)
 
   </details>
+  <br />
 
   <details>
-    <summary>MEDIUM PRIORITY</summary>
-    - The death and life of great American cities (Jane Jacobs)
-    - The price of time (Edward Chancellor)
-    - Noise (Daniel Kahneman, Oliver Sibony, Cas R. Sunstein)
-    - The Unabomber Manifesto (Ted Kaczynski)
-    - Die with zero (Bill Perkins)
-    - What doesn't kill us makes us (Mike Mariani)
-    - Bowling alone (Robert D. Putnam)
-    - The Death and Life of the Great American School System (Diane Ravitch)
-    - The way of the superior man (David Deida)
-    - Do hard things (Steve Magness)
-    - The shallows: what the internet is doing to our brains (Nicholas G. Carr)
-    - The Bible
-    - Anti-fragile (Nassim Nicholas Taleb)
-    - Finite and Infinite games
-    - Clinical Versus Statistical Prediction: A Theoretical Analysis and a Review of the Evidence (Paul Meehl) <!-- Heavily referenced in Chapter 21 of "Thinking, Fast and Slow". It was also called "My Disturbing Little Book", likely because it was so controversial. -->
-    - Blink (Malcom Gladwell)
-    - Nudge (Cass Sunstein, Richard Thaler) <!-- Referenced in "Thinking, Fast and Slow" -->
-    - A history of money (Glyn Davies) <!-- Referenced in "The basics of Bitcoins and Blockchains" -->
-    - Superhero (Meg Jay)
-    - Bronze Age Mindset
-    - Talent is Overrated (Geoffrey Colvin)
-    - All Quiet on the Western Front (Erich Maria Remarque)
-    - Yoga and the Quest for the True Self (Stephen Cope)
-    - The betrayal of the American Dream (Donald L. Barlett and James B. Steele)
+  <summary>Medium priority</summary>
+
+  - The death and life of great American cities (Jane Jacobs)
+  - The price of time (Edward Chancellor)
+  - Noise (Daniel Kahneman, Oliver Sibony, Cas R. Sunstein)
+  - The Unabomber Manifesto (Ted Kaczynski)
+  - Die with zero (Bill Perkins)
+  - What doesn't kill us makes us (Mike Mariani)
+  - Bowling alone (Robert D. Putnam)
+  - The Death and Life of the Great American School System (Diane Ravitch)
+  - The way of the superior man (David Deida)
+  - Do hard things (Steve Magness)
+  - The shallows: what the internet is doing to our brains (Nicholas G. Carr)
+  - The Bible
+  - Anti-fragile (Nassim Nicholas Taleb)
+  - Finite and Infinite games
+  - Clinical Versus Statistical Prediction: A Theoretical Analysis and a Review of the Evidence (Paul Meehl) <!-- Heavily referenced in Chapter 21 of "Thinking, Fast and Slow". It was also called "My Disturbing Little Book", likely because it was so controversial. -->
+  - Blink (Malcom Gladwell)
+  - Nudge (Cass Sunstein, Richard Thaler) <!-- Referenced in "Thinking, Fast and Slow" -->
+  - A history of money (Glyn Davies) <!-- Referenced in "The basics of Bitcoins and Blockchains" -->
+  - Superhero (Meg Jay)
+  - Bronze Age Mindset
+  - Talent is Overrated (Geoffrey Colvin)
+  - All Quiet on the Western Front (Erich Maria Remarque)
+  - Yoga and the Quest for the True Self (Stephen Cope)
+  - The betrayal of the American Dream (Donald L. Barlett and James B. Steele)
+
   </details>
+  <br />
 
   <details>
-    <summary>LOWEST PRIORITY</summary>
-    - The World of Caffeine: The Science and Culture of the World's Most Popular Drug (Bennett Alan Weinberg)
-    - Letters from a Stoic (Lucius Annaeus Seneca)
-    - 4000 weeks (Oliver Burkeman)
-    - The Love Prescription (John Gottman and Julie Schwartz)
-    - The Denial of Death (Ernest Becker)
-    - The Art of War (Sun Tzu)
+  <summary>Lowest priority</summary>
+
+  - The World of Caffeine: The Science and Culture of the World's Most Popular Drug (Bennett Alan Weinberg)
+  - Letters from a Stoic (Lucius Annaeus Seneca)
+  - 4000 weeks (Oliver Burkeman)
+  - The Love Prescription (John Gottman and Julie Schwartz)
+  - The Denial of Death (Ernest Becker)
+  - The Art of War (Sun Tzu)
+
   </details>
+  <br />
 
   <details>
   <summary>Books I've decided against reading</summary>
-    #### Self-Help
-    AKA **systemic issues** sold to us as individualistic issues we must fix.
-    - Deep work (Cal Newport)
-    - How to win friends and influence people (Dale Carnegie)
-    - I used to me a miserable F\*\*\* (John Kim)
-    - The 7 habits of highly effective people (Stephen Covey)
-    - The Millionaire Next Door (Thomas J. Stanley)
-    - The compound effect (Darren Hardy)
-    - The power of habit (Charles Duhigg)
-    - Think & Grow Rich (Napoleon Hill)
-    - why has nobody told me this before? (Julie smith)
 
-    #### Capitalism
-    Synonymous with *Greed*.
-    - Five wealth secrets (Craig Hill)
-    - Taking Stock (Jordan Grumet)
-    - \*A Book covering corporations by Garret Sutton
+  #### Self-Help
+  AKA **systemic issues** sold to us as individualistic issues we must fix.
+  - Deep work (Cal Newport)
+  - How to win friends and influence people (Dale Carnegie)
+  - I used to me a miserable F\*\*\* (John Kim)
+  - The 7 habits of highly effective people (Stephen Covey)
+  - The Millionaire Next Door (Thomas J. Stanley)
+  - The compound effect (Darren Hardy)
+  - The power of habit (Charles Duhigg)
+  - Think & Grow Rich (Napoleon Hill)
+  - why has nobody told me this before? (Julie smith)
 
-    #### Already researched
-    These I decided not to read after doing other research on the topic (i.e., other books)
-    - Alcohol: The World’s Favorite Drug (Griffith Edwards)
-    - Vanderbilt: The Rise and Fall of an American (Anderson Cooper & Katherine Howe)
+  #### Capitalism
+  Synonymous with *Greed*.
+  - Five wealth secrets (Craig Hill)
+  - Taking Stock (Jordan Grumet)
+  - \*A Book covering corporations by Garret Sutton
 
-    #### Disproven
-    - The interpretation of dreams (Sigmund Freud) 
+  #### Already researched
+  These I decided not to read after doing other research on the topic (i.e., other books)
+  - Alcohol: The World’s Favorite Drug (Griffith Edwards)
+  - Vanderbilt: The Rise and Fall of an American (Anderson Cooper & Katherine Howe)
 
-    #### Software engineering
-    If we're being honest with ourselves, these books teach old or basic practices and provide almost no real value.
-    - A Philosophy of Software Design (John Ousterhout)
+  #### Disproven
+  - The interpretation of dreams (Sigmund Freud) 
+
+  #### Software engineering
+  If we're being honest with ourselves, these books teach old or basic practices and provide almost no real value.
+  - A Philosophy of Software Design (John Ousterhout)
 
   </details>
 
