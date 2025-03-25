@@ -31,9 +31,14 @@ For examples, expand the dropdown below.
 
 <details>
 
-  <summary>Markdown versus HTML Examples</summary>
+  <summary class="text-lg font-bold hover:underline cursor-pointer">Markdown versus HTML Examples</summary>
+  <!--<summary class="underline hover:no-underline cursor-pointer">Markdown versus HTML Examples</summary>-->
     
-  Let's look at how a couple basic writing structures are built using Markdown versus HTML. We will first look at a sentence including a hyperlink to another website before looking at a simple table.
+  Let's look at how a couple basic writing structures are built using Markdown versus HTML. We will see examples for:
+  - a sentence with bold, italics, and a hyperlink
+  - a basic table
+  - headers
+
 
   ### Text with link
   Take a look at this basic sentence with a hyperlink, rendered into HTML and displayed via your browser. First, let's look at the rendered content. Note that both Markdown and HTML result in the same rendered content.
