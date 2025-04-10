@@ -192,6 +192,7 @@ Another cool thing about Markdown is that it didn't just create new ideas like s
      - https://markdown-it.github.io/
      - [CommonMark - Interactive tutorial](https://commonmark.org/help/tutorial/)
      - [CommonMark - Markdown Overview](https://commonmark.org/)
+     - [iA editor](https://ia.net/)
    - Fun fact: ChatGPT uses Markdown in its responses (that's why it can display tables and other things so easily).
    #### Where it needs improving
    - Buggy spacing (i.e., details/summary, nested stuff)
